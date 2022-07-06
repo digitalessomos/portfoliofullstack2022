@@ -1,0 +1,27 @@
+<ul class="items-list">
+    <li>
+
+      <div class="data-container">
+
+        <div class="logo-image-container">
+          <img class="logo-image" [src]="experiencia.img">
+        </div>
+         
+          <div class="wrap-data">
+            <p id="puesto">{{experiencia.empresa}}</p>
+            <p id="title">{{experiencia.puesto}}</p>
+            <p [hidden]= "experiencia.hide" id="time"><time>{{experiencia.start}}</time> - <time>{{experiencia.end}}</time></p>
+          </div>
+       
+          <div>
+            <button (click)="experiencia.hide = !experiencia.hide">
+                Más
+            </button>
+            <button (click)="eliminarExperiencia(experiencia)" id="btn-borrar">
+                Borrar
+            </button>
+          </div>
+
+      </div>
+    </li>
+  </ul>

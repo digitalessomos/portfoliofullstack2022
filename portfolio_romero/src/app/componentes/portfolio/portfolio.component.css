@@ -1,0 +1,20 @@
+
+.gotopbtn{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: tomato;
+    bottom: 40px;
+    right: 50px;
+  border-radius: 50%;;
+    text-decoration: none;
+    text-align: center;
+    line-height:40px;
+    color: white;
+    font-size: 20px;
+  }
+  .gotopbtn:hover{ 
+    color: blue;font-weight: 600;
+    font-size: 23px;
+    transition: color 2s;  
+  }

@@ -1,0 +1,44 @@
+<div class="row wrap-titulo" id="idiomas">
+
+  <div class="col-lg-8">
+    <div class="parallax img-tres" id="skills">
+      <h2 class="texto-interior">
+        Skills
+      </h2>
+    </div>
+  </div>
+
+  <div class="col-lg-4 wrap-img">
+    <img src="../../../assets/educacion/s7.jpg">
+  </div>
+
+</div>
+
+<div class="card" id="card-skills">
+  
+  <div class="row wrap-skills">
+
+    <div class="col-sm-4 col-md-4 col-lg-4 marco" *ngFor="let skill of skillList">
+
+      <div class="wrap-ediciones">
+        <div class="wrap-data">
+        <h4 class="text-center">{{skill.habilidad}}</h4>
+          </div>
+ 
+      </div>
+      <circle-progress [percent]="90" [radius]="75" [imageSrc]="skill.img" [showImage]="true" [imageHeight]="88"
+        [imageWidth]="88" [showUnits]="false" [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="3"
+        [outerStrokeColor]="'#78C000'" [innerStrokeColor]="'#C7E596'" [animation]="true" [animationDuration]="300">
+      </circle-progress>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="wrap-footer">
+  <footer>
+    <p class="p1-footer">Romero Cristian Darío | © Argentina Programa</p>
+    <p class="p2-footer">Buenos Aires, 2022</p>
+  </footer>
+</div>

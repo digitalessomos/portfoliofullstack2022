@@ -1,0 +1,32 @@
+<div class="row wrap-titulo">
+
+  <div class="col-lg-8">
+    <div class="parallax img-tres" id="experiencia">
+      <h2 class="texto-interior">
+        Experiencia
+      </h2>
+    </div>
+  </div>
+
+  <div class="col-lg-4 wrap-img">
+    <img src="../../../assets/educacion/s5.jpg">
+  </div>
+
+</div>
+
+<div class="card" id="card-experiencia">
+
+  <div class="card-titles">
+ 
+    <button (click)="show=!show" class="btn"><i class="fa fa-plus"></i></button>
+
+  </div>
+
+  <app-list-experiencia></app-list-experiencia> 
+  <div *ngIf= "show">
+    <div  #show>
+      <app-form-experiencia></app-form-experiencia>
+    </div>
+  </div>
+  
+</div> 

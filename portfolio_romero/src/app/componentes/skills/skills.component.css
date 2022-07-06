@@ -1,0 +1,80 @@
+  /*--------------footer----------*/
+  #card-skills {
+    border: none;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .wrap-footer {
+    background-image: url("/assets/fondosTitu/1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      position: relative;
+    color: white;
+  }
+
+  footer {
+    font-size: 14px;
+    text-align: center;
+    /* box-shadow:2px -2px 5px #59A9B5;*/
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  footer p {
+    line-height: 7px;
+  text-shadow: -1px -1px 1px black;
+  }
+
+  .p1-footer {
+    padding-top: 14px;
+  }
+
+  /*--------------*/
+  .wrap-skills .marco { 
+    text-align: center;
+
+    transform: scale(0.95);
+  }
+
+  #card-skills {
+    border-radius: 0;
+    background: white;
+  }
+
+  /*-----Botones para manipular------*/
+  .wrap-ediciones {
+
+    display: grid;
+    grid-template-columns: 92% 8%;
+
+  }
+
+  .wrap-btns {
+    display: flex;
+    position: relative;
+    right: 5px;
+  }
+
+  
+ .wrap-data h4{ 
+    padding: 4px 12px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    background-color: chartreuse;
+    border: 1px solid blue;
+    display: inline;
+  }
+/*---------------*/
+@media (max-width:920px) {
+  #card-skills {   width: 100%;  }  
+  .wrap-footer {
+    color: white; 
+   }
+  footer p {
+    line-height: 7px; 
+  }
+}

@@ -1,0 +1,50 @@
+<div class="row wrap-titulo">
+
+  <div class="col-lg-8">
+    <div class="parallax img-tres" id="proyectos">
+      <h2 class="texto-interior">
+        Proyectos
+      </h2>
+    </div>
+  </div>
+
+  <div class="col-lg-4 wrap-img">
+    <img src="../../../assets/educacion/s1.jpg">
+  </div>
+
+</div>
+
+<div class="card" id="card-experiencia">
+ 
+   <div class="row">
+
+    <div class="col-sm-12 col-md-6 col-lg-6 parte1" *ngFor="let proyecto of proyectoList">
+
+        <div class="one">
+          <p class="titulo">{{proyecto.nombre}}</p>
+  
+        </div>
+         <p class="p-descripcion">{{proyecto.descripcion}}</p>
+       
+        <div class="wrap-marcoimg">
+          
+          <div class="tiriras">
+            <div></div>
+            <div></div>
+          </div>
+          <div class="parte2">
+            <img [src]= "proyecto.img" class="img-fluid">
+          </div>
+          <div class="wrap-links">
+            <p class="link-proyecto"><a [href]="proyecto.link" target="_blank">visitar proyecto</a></p>
+          </div>
+          
+        </div>
+
+      
+
+    </div>
+
+   </div>
+ 
+</div>
