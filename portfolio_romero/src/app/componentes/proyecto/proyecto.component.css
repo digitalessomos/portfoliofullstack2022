@@ -96,4 +96,9 @@ p a:hover {color: tomato;}
   .wrap-links{ 
     margin-top: 0px;
   }
+  .p-descripcion {
+    line-height: 16px;
+    font-size: 16px;
+   
+  }
 }
