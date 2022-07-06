@@ -15,7 +15,7 @@ export class CajaExperiencia implements OnInit {
   }
 
   eliminarExperiencia(experiencia: experiencia){
-    if(confirm('Seguro desea eliminarlo')){
+    if(confirm('Seguro desea eliminarlo ?')){
       this.experienciaService.deleteExperiencia(experiencia);
     }
   }

@@ -24,7 +24,7 @@ div#profile-background img {
 	width: 152px;
 	height: 152px;
 	margin-top: -110px;
-	border:2px solid black;
+	border:2px solid rgb(1, 1, 94);
 }
  
 ul li {
@@ -83,8 +83,7 @@ ul li {
 	margin: 1.6rem 0;
 }
 
-.texto-interior {
-	color: black;
+.texto-interior { 
 	font-weight: bold;
 	font-family: 'Montserrat Subrayada', sans-serif;
 	display: inline-block;
@@ -93,7 +92,7 @@ ul li {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: tomato;
+	color: gold;
 }
 
 /*-------------*/

@@ -16,7 +16,7 @@ export class CajaComponent implements OnInit {
   }
 
   eliminarEducacion(educacion: Educacion){
-    if(confirm('Seguro desea eliminarlo')){
+    if(confirm('Seguro desea eliminarlo ?')){
       this.EducacionService.deleteEducacion(educacion);
     }
   }

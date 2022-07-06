@@ -93,5 +93,7 @@ p a:hover {color: tomato;}
   .parte1 {margin:  0;} 
   /*----------*/
   .one .titulo {  margin-top:20px;  }
-   
+  .wrap-links{ 
+    margin-top: 0px;
+  }
 }

@@ -34,7 +34,7 @@ users:any= [
          this.users.forEach((item:any) => {
            
           if(item.userId === data.userId && item.password === data.password){
-            alert("login exitoso bro");
+            alert("Login exitoso. A continuación mi portfolio web full stack");
             
             localStorage.setItem("isLoggedIn","true");
             this.form.reset();
