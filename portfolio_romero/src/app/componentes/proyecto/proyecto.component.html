@@ -16,35 +16,57 @@
 
 <div class="card" id="card-experiencia">
  
-   <div class="row">
+  <div class="row">
 
-    <div class="col-sm-12 col-md-6 col-lg-6 parte1" *ngFor="let proyecto of proyectoList">
+    <div class="col-sm-12 col-md-6 col-lg-12 " *ngFor="let proyecto of proyectoList">
 
-        <div class="one">
-          <p class="titulo">{{proyecto.nombre}}</p>
-  
-        </div>
-         <p class="p-descripcion">{{proyecto.descripcion}}</p>
-       
-        <div class="wrap-marcoimg">
-          
-          <div class="tiriras">
-            <div></div>
-            <div></div>
+      <div class="row">
+
+          <div class="col-lg-7 parte1">
+
+              <div class="one">
+                <p class="titulo">{{proyecto.nombre}}</p>
+              </div>
+
+              <p class="p-descripcion">{{proyecto.descripcion}}</p>
+            
+              <div class="wrap-marcoimg">
+                
+                  <div class="tiriras">
+                    <div></div>
+                    <div></div>
+                  </div>
+                  <div class="parte2">
+                    <img [src]= "proyecto.img" class="img-fluid">
+                  </div>
+                  <div class="wrap-links">
+                    <p class="link-proyecto"><a [href]="proyecto.link" target="_blank">visitar proyecto</a></p>
+                  </div>
+                
+              </div>
+
           </div>
-          <div class="parte2">
-            <img [src]= "proyecto.img" class="img-fluid">
-          </div>
-          <div class="wrap-links">
-            <p class="link-proyecto"><a [href]="proyecto.link" target="_blank">visitar proyecto</a></p>
-          </div>
-          
-        </div>
 
-      
+          <div class="col-lg-5 parte2">
 
+            <ul class="wrap-li-proy">
+              <li>
+                <h2>Frontend</h2>
+                <p>{{proyecto.frontend}}</p>
+              </li>
+              <li>
+                <h2>Backend</h2>
+                <p>{{proyecto.backend}}</p>
+              </li>
+              <li><h2>Base de datos</h2> 
+                  <p>{{proyecto.bd}}</p>
+                </li>
+            </ul>
+
+          </div>
+
+      </div>
     </div>
-
-   </div>
+  </div>
  
 </div>

@@ -55,15 +55,8 @@ p a:hover {color: tomato;}
   font-size: 18px;
   font-family: sans-serif;text-align: justify;
   
-  padding: 10px;
-  background-image: url("/assets/fondosTitu/1.jpg");
-  background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-    position: relative;
-  color: white; 
-  border:1px solid blue;
+  padding-bottom: 10px;
+  border-bottom:1px solid blue;
 }
 
 /*-------------*/ 
@@ -74,22 +67,55 @@ p a:hover {color: tomato;}
   font-size: 26px;
   line-height: 24px;
    
-  
-  margin-top: 1px;
+  padding: 10px;
+  background-image: url("/assets/fondosTitu/1.jpg");
+  background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    position: relative;
+  color: white;  
 } 
+
+.wrap-li-proy{  
+  display: flex; flex-direction: column; 
+  color:white;  
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrap-li-proy li{  
+ padding:2px 0px 0px 5px;   
+  width: 70%; 
+}
+.wrap-li-proy li:nth-child(1){  
+  background-color: rgb(250, 137, 137);
+  
+}
+.wrap-li-proy li:nth-child(2){  
+  background-color: rgb(175, 175, 250);
+}
+.wrap-li-proy li:nth-child(3){  
+  background-color: rgb(165, 252, 165);
+}
+
+.wrap-li-proy li:nth-child(1):hover{  
+  background-color: rgb(250, 32, 32); 
+  transition:1s ; 
+}
+.wrap-li-proy li:nth-child(2):hover{  
+  background-color: rgb(47, 47, 255);
+  transition:1s ; 
+}
+.wrap-li-proy li:nth-child(3):hover{  
+  background-color: rgb(30, 180, 30);
+  transition:1s ; 
+}
 /*---------------*/
 @media (max-width:920px) {
   #card-experiencia {width: 100%;} 
-
-  #card-experiencia div .parte1 {
-    border-bottom: 1px double blue; 
-  } 
-
-  .parte2 img {
-    height:260px;
-    width: 80%;
-    padding: 0 0; 
-  } 
+ 
   .parte1 {margin:  0;} 
   /*----------*/
   .one .titulo {  margin-top:20px;  }
@@ -101,4 +127,8 @@ p a:hover {color: tomato;}
     font-size: 16px;
    
   }
+  /*------*/
+  .wrap-li-proy li{     
+     width: 90%; 
+   }
 }
