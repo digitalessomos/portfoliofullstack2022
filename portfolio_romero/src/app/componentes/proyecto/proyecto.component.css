@@ -5,7 +5,10 @@
   margin: 0 auto;
 }  
 
- 
+ .wrap-edu-grid{
+display: grid !important;
+grid-template-columns: 60% 40%; 
+ }
 /*------------------*/
 .parte2 {text-align: center;font-family: 'Courier New', Courier, monospace; }
 
@@ -32,13 +35,13 @@ margin:  auto;
   text-decoration: none; 
   font-style: italic;
 
+  color: white; 
 }
 
 .link-proyecto {
   padding:2px 5px; 
  
   background-color: black;
-  color: white; 
   border:1px solid blue;
   display: inline;
 }
@@ -50,22 +53,19 @@ p a:hover {color: tomato;}
   line-height: 18px;
   font-size: 18px;
   font-family: sans-serif;text-align: justify;
- 
-  padding-bottom: 10px;
-  border-bottom:1px solid blue;
-
-  width:80%;margin: auto;
+   
+  width:85%;margin:10px auto 0 auto;
 }
 
 /*-------------*/ 
-.one .titulo {
+.one  {
   text-align: center;
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace; 
   font-size: 26px;
   line-height: 24px;
    
-  padding: 10px;
+  padding: 10px;margin: 20px 0 0 5px;
   background-image: url("/assets/fondosTitu/1.jpg");
   background-attachment: fixed;
 	background-position: center;
@@ -122,7 +122,7 @@ p a:hover {color: tomato;}
  
   .parte1 {margin:  0;} 
   /*----------*/
-  .one .titulo {  margin-top:20px;  }
+  .one{ margin: 20px 0 0 0;}
   .wrap-links{ 
     margin-top: 0px;
   }
@@ -130,10 +130,12 @@ p a:hover {color: tomato;}
     line-height: 18px;
     font-size: 16px;
    width: 92%;
+   margin:10px auto 10px auto;
   }
   /*------*/
-  .wrap-li-proy li{     
-     width: 90%; 
-    
-   }
+  .wrap-li-proy li{        width: 90%;    }
+  .wrap-edu-grid{ 
+    grid-template-columns:1fr;
+    border-bottom:15px solid  rgb(11, 2, 66) ;
+     }
 }

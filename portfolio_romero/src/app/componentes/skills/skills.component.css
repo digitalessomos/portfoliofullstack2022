@@ -3,6 +3,8 @@
     border: none;
     width: 80%;
     margin: 0 auto 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .wrap-footer {
@@ -34,25 +36,14 @@
   }
 
   /*--------------*/
-  .wrap-skills .marco { 
+  .marco { 
     text-align: center;
-
-    transform: scale(0.95);
-  }
-
-  #card-skills {
-    border-radius: 0;
-    background: white;
-  }
-
+   display: flex;flex-direction: column;
+ border-bottom: 10px solid rgb(11, 2, 66);
+ border-right: 10px solid rgb(11, 2, 66);
+  } 
   /*-----Botones para manipular------*/
-  .wrap-ediciones {
-
-    display: grid;
-    grid-template-columns: 92% 8%;
-
-  }
-
+ 
   .wrap-btns {
     display: flex;
     position: relative;
@@ -60,17 +51,21 @@
   }
 
   
- .wrap-data h4{ 
+ h4{ 
     padding: 4px 12px; 
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
-    background-color: chartreuse;
-    border: 1px solid blue;
+    color: rgb(11, 2, 66);
     display: inline;
   }
 /*---------------*/
 @media (max-width:920px) {
-  #card-skills {   width: 100%;  }  
+  #card-skills {   width: 55%;  grid-template-columns:1fr;
+   
+  }  
+  .marco { 
+    border-right: none;
+  } 
   .wrap-footer {
     color: white; 
    }

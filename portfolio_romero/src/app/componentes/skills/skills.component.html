@@ -15,24 +15,15 @@
 </div>
 
 <div class="card" id="card-skills">
-  
-  <div class="row wrap-skills">
+   <div class="marco" *ngFor="let skill of skillList">
 
-    <div class="col-sm-4 col-md-4 col-lg-4 marco" *ngFor="let skill of skillList">
-
-      <div class="wrap-ediciones">
-        <div class="wrap-data">
-        <h4 class="text-center">{{skill.habilidad}}</h4>
-          </div>
- 
-      </div>
-      <circle-progress [percent]="90" [radius]="75" [imageSrc]="skill.img" [showImage]="true" [imageHeight]="88"
+     <circle-progress [percent]="90" [radius]="75" [imageSrc]="skill.img" [showImage]="true" [imageHeight]="88"
         [imageWidth]="88" [showUnits]="false" [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="3"
         [outerStrokeColor]="'#78C000'" [innerStrokeColor]="'#C7E596'" [animation]="true" [animationDuration]="300">
       </circle-progress>
-    </div>
+      <h4>{{skill.habilidad}}</h4>
 
-  </div>
+   </div>
 </div>
 
 

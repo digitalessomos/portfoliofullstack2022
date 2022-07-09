@@ -16,16 +16,11 @@
 
 <div class="card" id="card-experiencia">
  
-      <div class="row mb-4"  *ngFor="let proyecto of proyectoList">
+      <div class="wrap-edu-grid"  *ngFor="let proyecto of proyectoList">
 
-          <div class="col-lg-7 parte1">
+          <div class="parte1">
 
-              <div class="one">
-                <p class="titulo">{{proyecto.nombre}}</p>
-              </div>
-
-              <p class="p-descripcion">{{proyecto.descripcion}}</p>
-            
+              <div class="one">{{proyecto.nombre}}</div>
               <div class="wrap-marcoimg">
                 
                   <div class="tiriras">
@@ -41,9 +36,11 @@
                 
               </div>
 
+              <p class="p-descripcion">{{proyecto.descripcion}}</p>
+            
           </div>
 
-          <div class="col-lg-5 parte2">
+          <div class="parte2">
 
             <ul class="wrap-li-proy">
               <li>

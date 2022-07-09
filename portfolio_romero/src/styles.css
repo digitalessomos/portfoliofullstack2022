@@ -15,10 +15,6 @@ ul li { list-style: none;}
 }
 
 /*------------------------*/
-
-#card-acercade, #card-experiencia, #card-educacion, #card-skills {
-	padding: 20px;
-} 
  .fa-pen {
 	color: black;
 	text-decoration: none;
@@ -125,9 +121,8 @@ ul li { list-style: none;}
 	.wrap-img img {
 		margin: 0;
 		border: none;
-		border-left: 9px solid black;
-		border-right: 9px solid black;
-		border-bottom: 6px solid black;
+		border-left: 9px solid rgb(11, 2, 66);
+		border-right: 9px solid rgb(11, 2, 66); 
 	}
 
 	.wrap-titulo {

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&family=Montserrat+Subrayada&display=swap');
 
 .wrap-header {
+	height:10vh;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -87,7 +88,7 @@ margin-left: -8px;
 	} 
 /*-------HEADER FOTO----------*/
 #first-card{
-	height:86vh;
+	height:90vh;
 	margin: 0 auto;
 	background-image: url("/assets/fondosTitu/1.jpg");
 	background-attachment: fixed;
@@ -378,6 +379,9 @@ margin-left: -8px;
 	pointer-events: none;
 	overflow-y: auto;
 
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	 
 }
 
 .modalDialog:target {
@@ -433,10 +437,8 @@ h3 {
 
 .containerpeli {
 	background: #fff;
-	width: 300px;
-	margin: 10px;
-	font-family: 'Courier New', Courier, monospace;
-
+ 	font-family: 'Courier New', Courier, monospace;
+height:450px; 
 }
 
 .containerpeli .header {
@@ -454,13 +456,9 @@ h3 {
 
 }
 
-.containerpeli {
-	box-shadow: 1px 1px 1px black, -1px -1px 1px black;
-
-}
-
+ 
 .containerpeli ul li {
-	padding: 15px;
+	padding:  5px;
 	border-bottom: 1px solid #ccc;
 }
 
@@ -563,7 +561,14 @@ ul li:hover {
 .wrap-header .social-buttons a {
 	margin: 0 15px 0 0; 
 	font-size: 22px;
-}
+}	
+.wrap-header{
+	height:8vh;
+}	 
 /*--------*/
 #info-actions{padding-right: 5px;}
+/*--------*/ 
+.containerpeli { 
+height:400px; 
+}
 }

@@ -15,24 +15,24 @@ export class ExperienciaService {
       "empresa":"Diseñador web",
       "puesto":"Freelancer",
       "img":"./assets/img/logoexp11.png.crdownload",
-      "start":"2016",
-      "end":"2018",
+      "start":"2016 - 2018",
+      "end":"",
       "hide":true
   },
   {
       "empresa":"Backend developer",
       "puesto":"Freelancer",
       "img":"./assets/img/logoexp2.webp",
-      "start":"Ago 2017",
-      "end":"Oct 2019",
+      "start":"Ago 2017 - Oct 2019",
+      "end":"",
       "hide":true
   },
   {
       "empresa":"Frontend developer",
       "puesto":"Freelancer",
       "img":"./assets/img/logoexp333.png",
-      "start":"2019",
-      "end":"2022",
+      "start":"2019 - 2022",
+      "end":"",
       "hide":true
   }
   ]

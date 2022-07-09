@@ -67,8 +67,7 @@
       margin-right: 0;
     }
   
-    #time {
-      transform: translateY(-12px);
+    #time { 
       font-size: 10px;
     }
   
