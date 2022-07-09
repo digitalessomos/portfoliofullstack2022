@@ -7,7 +7,7 @@
 
  
 /*------------------*/
-.parte2 {text-align: center;}
+.parte2 {text-align: center;font-family: 'Courier New', Courier, monospace; }
 
 .parte1 img {
   height: 170px;
@@ -22,11 +22,7 @@ margin:  auto;
   background-color: black;
   border: 1px solid blue;
   height: 30px;
-}
-
-.wrap-marcoimg{
-  transform: translateY(-16px);
-}
+} 
 /*---------------*/
 .wrap-links{
   text-align: center;
@@ -54,16 +50,18 @@ p a:hover {color: tomato;}
   line-height: 18px;
   font-size: 18px;
   font-family: sans-serif;text-align: justify;
-  
+ 
   padding-bottom: 10px;
   border-bottom:1px solid blue;
+
+  width:80%;margin: auto;
 }
 
 /*-------------*/ 
 .one .titulo {
   text-align: center;
   text-transform: uppercase;
-  
+  font-family: 'Courier New', Courier, monospace; 
   font-size: 26px;
   line-height: 24px;
    
@@ -89,6 +87,12 @@ p a:hover {color: tomato;}
  padding:2px 0px 0px 5px;   
   width: 70%; 
 }
+.wrap-li-proy h2{  
+  line-height:35px;display:inline;
+ }
+ .wrap-li-proy p{  
+  line-height:15px;
+ }
 .wrap-li-proy li:nth-child(1){  
   background-color: rgb(250, 137, 137);
   
@@ -123,12 +127,13 @@ p a:hover {color: tomato;}
     margin-top: 0px;
   }
   .p-descripcion {
-    line-height: 16px;
+    line-height: 18px;
     font-size: 16px;
-   
+   width: 92%;
   }
   /*------*/
   .wrap-li-proy li{     
      width: 90%; 
+    
    }
 }

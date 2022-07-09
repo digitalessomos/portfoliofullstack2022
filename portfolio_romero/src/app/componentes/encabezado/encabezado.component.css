@@ -84,24 +84,7 @@ margin-left: -8px;
 	}
 #logoAP1{
 	width:50px;height: 50px;
-	}
-/*-----------*/
-.wrap-datos p {
-	line-height: 22px;
-	margin: 0 !important;
-	 
-}
-.wrap-datos  {
-margin-top: 5px;
-color: gold;
-}
-
-/*------------*/
- 
-#info {
-	z-index: 111;
-}
-
+	} 
 /*-------HEADER FOTO----------*/
 #first-card{
 	height:86vh;
@@ -172,24 +155,72 @@ color: gold;
 	transform-origin: right;
 	transition: 1s;
 }
+
+ 
+
+#info{
+	display: flex;  flex-direction:column;
+  	z-index: 111; 
+	color:gold;
+}
+#info-img img {
+	border-radius: 50%;
+	width: 152px;
+	height: 152px;
+	margin-top: -85px;margin-left: 20px;
+	border:1px solid gold;
+}
+
+.wrap-infomia{
+	color:white;
+	margin-left: 30px;
+}
+
 .nombre-completo {
-	display: inline;
-	font-family: 'Montserrat Subrayada', sans-serif;
-	font-size: 35px;
+	 text-transform: uppercase;font-weight: 600;
+	 letter-spacing: 1px; 	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 50px; height:45px;
 	text-shadow: 1px 1px 1px blue, -1px -1px 1px blue;
 }
 
-#info-profesion{
-	font-size: 25px;
-	font-family: 'Courier New', Courier, monospace;
-	font-weight: 600; 
+.info-profesion{
+	font-size: 25px; line-height:22px;display:inline;
+	font-family: 'Courier New', Courier, monospace; 
+	 
 }
 .info-origen{
-	  margin-top: 3px;font-style: italic;
+	 font-style: italic;
 	  font-family: 'Courier New', Courier, monospace;
 	  color:white;
-	  text-shadow: 1px 1px 1px black, -1px -1px 1px black;
+	  text-shadow: 1px 1px 1px black, -1px -1px 1px black; 
+	  font-size: 12px;  height:10px;display:inline;
 }
+
+#info-actions{margin-left: auto;}
+#info-actions button {
+ 
+	margin-right: 2px;
+ 
+}
+#info-actions button {
+	padding: 0.5px 6px;
+	 
+	background-color: tomato;
+	color: white;
+	border: 0.1px solid tomato;
+	border-radius: 6%;
+	font-size: 15px;
+	 
+	font-family: 'Courier New', Courier, monospace;
+	letter-spacing: -1px;
+	word-spacing: -4px; 
+}
+
+#info-actions button a {
+	text-decoration: none;
+	color: white;
+}
+
 .img-wrapper:hover h2 {
 	transform: perspective(400px) rotateY(0deg);
 }
@@ -233,12 +264,7 @@ color: gold;
 
 .img-wrapper:hover ul li:nth-child(4) {
 	transition-delay: 1s;
-}
-
-.img-wrapper ul li a {
-	 
-}
-
+} 
 .img-wrapper ul li i {
 	color: gold;
 	transform: scale(2);
@@ -335,26 +361,6 @@ color: gold;
 	}
 }
 /*--------------*/
-#info-actions button {
-	padding: 0.5px 6px;
-	margin-right: 2px;
-	background-color: tomato;
-	color: white;
-	border: 0.1px solid tomato;
-	border-radius: 6%;
-	font-size: 11px;
-	display: inline;
-	font-family: 'Courier New', Courier, monospace;
-	letter-spacing: -1px;
-	word-spacing: -4px;
-
-	transform:translateY(-15px);
-}
-
-#info-actions button a {
-	text-decoration: none;
-	color: white;
-}
 
 /*Modal*/
 .modalDialog {
@@ -493,24 +499,35 @@ ul li:hover {
 /*------------------*/
 @media (max-width:930px) {
     #first-card{
-		height:83vh;
+		height:85vh;
 		margin: 0 auto 1px auto;
 	}
-	.nombre-completo {
-		display: inline;
-		font-family: 'Montserrat Subrayada', sans-serif;
-		font-size: 35px; 
-	 
+	.wrap-infomia{
+		color:white;
+		margin-left: 10px;
+	}
+	.nombre-completo { 
+		font-size:32px; 
+	 	height:25px;
+	}
+ 
+.info-profesion{
+	font-size: 22px; line-height:18px;display:inline;
+	font-family: 'Courier New', Courier, monospace; 
+	position: relative;bottom:4px;
+}
+	.info-origen{ 
+		 text-shadow: none;display:inline-block; 
+		 position: relative;bottom:7px;
 	}
 	
-	#info-profesion{
-		font-size: 22px;
-		text-shadow: none;
-	}
-	.info-origen{
-		 font-size: 14px; 
-		 text-shadow: none;
-	}
+#info-actions button {
+	 
+	font-size: 12px;
+	 
+	 
+}
+/*----------------*/
 	.img-wrapper:hover h2 {
 		transform: perspective(400px) rotateY(0deg);
 	}
@@ -542,12 +559,11 @@ ul li:hover {
 		animation: anim2 12s infinite;
 	}
  
-	/*------------*/
-	.wrapLogos{
- 
-	 }  
+	/*------------*/ 
 .wrap-header .social-buttons a {
 	margin: 0 15px 0 0; 
 	font-size: 22px;
 }
+/*--------*/
+#info-actions{padding-right: 5px;}
 }

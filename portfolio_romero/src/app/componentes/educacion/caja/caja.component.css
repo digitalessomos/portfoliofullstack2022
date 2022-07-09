@@ -9,6 +9,7 @@
 .data-container {
 	display: flex;
 	justify-content: left;
+  margin:20px auto;
 }
 
   .data-container div button{
