@@ -8,17 +8,34 @@
  .wrap-edu-grid{
 display: grid !important;
 grid-template-columns: 60% 40%; 
+border-bottom: 11px solid rgb(11, 2, 66);
  }
 /*------------------*/
-.parte2 {text-align: center;font-family: 'Courier New', Courier, monospace; }
-
-.parte1 img {
+.parte2 {
+  text-align: center;font-family: 'Courier New', Courier, monospace; 
+  background-color: rgb(11, 2, 66);
+} 
+.parte1 {
+  background-color: rgb(11, 2, 66); 
+} 
+.parte2 img {
   height: 170px;
   width: 60%;
   border: 1px solid blue;
   border-radius: 10px; 
 margin:  auto; 
 }
+.parte3 {
+  text-align: center;  
+} 
+.parte3 img {
+  height: 170px;
+  width: 70%;
+  border: 1px solid blue;
+  border-radius: 10px; 
+margin:  auto; 
+}
+
 .tiriras {display: flex;justify-content: space-around;}
 .tiriras div {
   width: 22px;
@@ -53,8 +70,9 @@ p a:hover {color: tomato;}
   line-height: 18px;
   font-size: 18px;
   font-family: sans-serif;text-align: justify;
-   
-  width:85%;margin:10px auto 0 auto;
+  width:90%;margin:10px auto 10px auto; padding:5px 8px;
+  color: white;
+  border:1px solid white;
 }
 
 /*-------------*/ 
@@ -65,7 +83,7 @@ p a:hover {color: tomato;}
   font-size: 26px;
   line-height: 24px;
    
-  padding: 10px;margin: 20px 0 0 5px;
+  padding: 10px;margin: 0 0 0 0;
   background-image: url("/assets/fondosTitu/1.jpg");
   background-attachment: fixed;
 	background-position: center;
@@ -80,7 +98,7 @@ p a:hover {color: tomato;}
   color:white;  
   position: relative;
   top: 50%;
-  left: 50%;
+  left:50%;
   transform: translate(-50%, -50%);
 }
 .wrap-li-proy li{  
@@ -120,12 +138,15 @@ p a:hover {color: tomato;}
 @media (max-width:920px) {
   #card-experiencia {width: 100%;} 
  
-  .parte1 {margin:  0;} 
+  .parte1 {margin:  0;   border-right: none;}
+ 
   /*----------*/
-  .one{ margin: 20px 0 0 0;}
+  .one{ margin: 0 0 0 0;}
+
   .wrap-links{ 
     margin-top: 0px;
   }
+  
   .p-descripcion {
     line-height: 18px;
     font-size: 16px;
@@ -133,9 +154,9 @@ p a:hover {color: tomato;}
    margin:10px auto 10px auto;
   }
   /*------*/
-  .wrap-li-proy li{        width: 90%;    }
+  .wrap-li-proy li{width: 90%;}
+  .wrap-li-proy {left: 50%;}
   .wrap-edu-grid{ 
-    grid-template-columns:1fr;
-    border-bottom:15px solid  rgb(11, 2, 66) ;
+    grid-template-columns:1fr; 
      }
 }

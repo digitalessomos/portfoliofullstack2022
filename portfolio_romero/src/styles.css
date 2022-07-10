@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
+} 
 html { scroll-behavior: smooth; }   
 ul li { list-style: none;}
 
@@ -34,15 +34,7 @@ ul li { list-style: none;}
 
 .logo-image-container {
  margin-right: 10px;
-} 
-
-
-.wrap-btns .btnEdu{
-	 padding:2px;
-	 border:none !important;
-	 background-color:white; 
-	}
-	
+}  
 /*---------Parallax-----------*/
 
 .parallax {

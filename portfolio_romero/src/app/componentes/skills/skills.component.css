@@ -2,7 +2,7 @@
   #card-skills {
     border: none;
     width: 80%;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 2px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
