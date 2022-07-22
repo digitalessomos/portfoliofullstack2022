@@ -1,5 +1,0 @@
-FE
-https://github.com/CristianDario89/portfolio-FrontEnd
-
-BE
-https://github.com/CristianDario89/portfolio-BackEnd

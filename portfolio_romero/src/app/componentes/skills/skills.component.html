@@ -14,18 +14,55 @@
 
 </div>
 
+<h1>Front end</h1>
 <div class="card" id="card-skills">
-   <div class="marco" *ngFor="let skill of skillList">
 
-     <circle-progress [percent]="90" [radius]="75" [imageSrc]="skill.img" [showImage]="true" [imageHeight]="88"
-        [imageWidth]="88" [showUnits]="false" [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="3"
-        [outerStrokeColor]="'#78C000'" [innerStrokeColor]="'#C7E596'" [animation]="true" [animationDuration]="300">
-      </circle-progress>
-      <h4>{{skill.habilidad}}</h4>
+   <div class="marco" *ngFor="let skill of skillFront">
 
-   </div>
+      <div class="wrap-skilazos">
+          <circle-progress [percent]="90" [radius]="75" [imageSrc]="skill.img" [showImage]="true" [imageHeight]="88"
+          [imageWidth]="88" [showUnits]="false" [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="3"
+          [outerStrokeColor]="'#78C000'" [innerStrokeColor]="'#C7E596'" [animation]="true" [animationDuration]="300">
+        </circle-progress>
+        <h4>{{skill.habilidad}}</h4>
+      </div>
+      <div class="requisitos">saasas</div>
+   </div> 
 </div>
 
+<h1>Back end</h1>
+<div class="card" id="card-skills">
+  
+  <div class="marco" *ngFor="let skill of skillBack">
+
+   <div class="wrap-skilazos">
+       <circle-progress [percent]="90" [radius]="75" [imageSrc]="skill.img" [showImage]="true" [imageHeight]="88"
+       [imageWidth]="88" [showUnits]="false" [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="3"
+       [outerStrokeColor]="'#78C000'" [innerStrokeColor]="'#C7E596'" [animation]="true" [animationDuration]="300">
+     </circle-progress>
+     <h4>{{skill.habilidad}}</h4>
+   </div>
+   <div class="requisitos">saasas</div>
+  </div>
+
+  
+</div>
+
+<h1>Soft</h1>
+<div class="card" id="card-skills">
+ 
+  <div class="marco" *ngFor="let skill of skillSoft">
+
+   <div class="wrap-skilazos">
+       <circle-progress [percent]="90" [radius]="75" [imageSrc]="skill.img" [showImage]="true" [imageHeight]="88"
+       [imageWidth]="88" [showUnits]="false" [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="3"
+       [outerStrokeColor]="'#78C000'" [innerStrokeColor]="'#C7E596'" [animation]="true" [animationDuration]="300">
+     </circle-progress>
+     <h4>{{skill.habilidad}}</h4>
+   </div>
+   <div class="requisitos">saasas</div>
+  </div>
+</div>
 
 <div class="wrap-footer">
   <footer>

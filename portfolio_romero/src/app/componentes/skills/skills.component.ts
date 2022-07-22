@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 
 export class skillsComponent implements OnInit {
   
-  skillList: any=[
+  skillFront: any=[
     {
     "habilidad":"Diseñador web",
     "img":"./assets/front2.png"
@@ -17,22 +17,28 @@ export class skillsComponent implements OnInit {
 {
     "habilidad":"Front end",
     "img":"./assets/ang2.png"
+} 
+]
+
+skillBack: any=[  
+{
+  "habilidad":"Back end",
+  "img":"../assets/node2.png"
+} 
+]
+
+skillSoft: any=[ 
+{
+  "habilidad":"Hoisting",
+  "img":"../assets/git2.png"
 },
 {
-    "habilidad":"Back end",
-    "img":"../assets/node2.png"
+  "habilidad":"Idiomas x 3",
+  "img":"../assets/idioms.png"
 },
 {
-    "habilidad":"Hoisting",
-    "img":"../assets/git2.png"
-},
-{
-    "habilidad":"Idiomas x 3",
-    "img":"../assets/idioms.png"
-},
-{
-    "habilidad":"Conversational skills",
-    "img":"../assets/grupal.png"
+  "habilidad":"Conversational skills",
+  "img":"../assets/grupal.png"
 }
 ]
   constructor(public router: Router) { }
