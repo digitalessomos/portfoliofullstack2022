@@ -4,7 +4,7 @@
     width: 82%;
     margin: 0 auto 2px auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 h1{text-align:center;}
   .wrap-footer {
@@ -38,16 +38,23 @@ h1{text-align:center;}
   /*--------------*/
   .marco{
     display:grid;
-    grid-template-columns: 70% 30%;
-    border:solid red 1px;
-    margin:5px; 
+    grid-template-columns:35% 65%; 
+    margin:2px; 
   }
   .wrap-skilazos { 
     text-align: center;
    display: flex;flex-direction: column;
  
-  } 
+  }
+   
+.marco ul li{ 
+   padding:0 4px;
+  border:1px red solid;
+}
 
+.marco ul li:nth-child(2n){ 
+ background-color: red;color: white;
+}
   /*-----Botones para manipular------*/
  
   .wrap-btns {
