@@ -12,12 +12,13 @@ export class skillsComponent implements OnInit {
   skillFront: any=[
 
     {
-    "habilidad":"Diseñador web",
+    "habilidad":"Web designer",
     "img":"./assets/front2.png", 
     "responsabilidades":
     [
     "Comprension de web markup, como HTML5/CSS.",
     "Controlar tipografías, plantillas, formas del diseño y la interactividad.",
+    "Conocimientos en Vanilla JS, jQuery",
     "Adaptar el diseño de una web a diversos dispositivos y navegadores.", 
     "Conocimiento de Algoritmos y estructuras de datos.", 
     "Experiencia con Ajax and Websockets.",
@@ -26,7 +27,7 @@ export class skillsComponent implements OnInit {
   ]
 },
 {
-    "habilidad":"Angular",
+    "habilidad":"Client layer",
     "img":"./assets/ang2.png",
     "responsabilidades":
     [
@@ -45,7 +46,7 @@ export class skillsComponent implements OnInit {
  /*------------------------------------*/
 skillBack: any=[  
 {
-  "habilidad":"Back end",
+  "habilidad":"Server(API) layer",
   "img":"../assets/node2.png",
   "responsabilidades":
   [
@@ -57,21 +58,42 @@ skillBack: any=[
   "Dividir mi app en partes, a delegar tareas.",
   "Procesar datos del usuario insertados en la interfaz."
 ]
+},
+{
+  "habilidad":"Hoisting",
+  "img":"../assets/git2.png",
+  "responsabilidades":
+  [
+  "Conocimiento de herramientas de control de versiones como GIT." 
+]
 } 
 ]
 
-skillSoft: any=[ 
-{
-  "habilidad":"Hoisting",
-  "img":"../assets/git2.png"
-},
+skillSoft: any=[
 {
   "habilidad":"Idiomas x 3",
-  "img":"../assets/idioms.png"
+  "img":"../assets/idioms.png",
+  "responsabilidades":
+  [
+  "Advanced english knowledge. Advanced oral and written English communication skills", 
+  "Five certificates of verifiable English experience.",
+  "Intermediate French knowledge. Advanced oral and intermediate written French communication skills", 
+  "Two  certificates of verifiable French experience." 
+]
 },
 {
   "habilidad":"Conversational skills",
-  "img":"../assets/grupal.png"
+  "img":"../assets/grupal.png",
+  "responsabilidades":
+  [
+  "Excelentes habilidades de comunicación",
+  "Conocimiento de metodologías ágiles como SCRUM",
+  "Conocimiento de metodologías de análisis como UML u otros.",
+  "Autosuficiencia, pensamiento crítico y capacidad de toma de decisiones.", 
+  "Flexible y adaptable a diferentes necesidades, con la capacidad de volver a priorizar las tareas según sea necesario.",
+  "Nociones de arquitectura de software y aplicaciones N-Capas",
+  "Mucha creatividad y organización, además de alto compromiso con el proyecto" 
+]
 }
 ]
   constructor(public router: Router) { }
