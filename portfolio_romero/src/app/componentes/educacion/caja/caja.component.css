@@ -3,7 +3,7 @@
  display:grid;
  grid-template-columns:30% 5% 60% 5%; 
 
- border:solid  3.5px black; 
+ border:solid  2.5px black; 
  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 
  padding:15px;

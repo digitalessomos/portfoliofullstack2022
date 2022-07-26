@@ -5,14 +5,19 @@
     margin: 0 auto 2px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
   }
 h1{text-align:center;margin-bottom: 20px;}
  
   /*--------------*/
   .marco{
     display:grid;
-    grid-template-columns:35% 65%; 
-    margin:2px; 
+    grid-template-columns:30% 70%; 
+    margin:2px; padding:0 10px;
+    
+ border:solid 2px black; 
+ border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
   }
   .wrap-skilazos { 
     text-align: center;
@@ -21,12 +26,11 @@ h1{text-align:center;margin-bottom: 20px;}
   }
    
 .marco ul li{ 
-   padding:0 4px;
-  border:1px red solid;
+   padding:4px 4px; font-size: 14px;line-height:16px;
 }
 
 .marco ul li:nth-child(2n){ 
- background-color: red;color: white;
+ background-color: rgb(95, 92, 92);color: white;
 }
   /*-----Botones para manipular------*/
  
@@ -43,7 +47,7 @@ h1{text-align:center;margin-bottom: 20px;}
     font-weight: 600;
     color: rgb(11, 2, 66);
     display: inline;
-  }
+  } 
 /*---------------*/
 @media (max-width:920px) {
   #card-skills {   width:95%;  grid-template-columns:1fr;

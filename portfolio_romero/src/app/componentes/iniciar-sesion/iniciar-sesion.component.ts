@@ -12,7 +12,7 @@ export class IniciarSesionComponent implements OnInit {
 public form!:FormGroup;
 users:any= [
   { "userId":"lucas", "password":"alario", "id":1 }, 
-  { "userId":"lucas2", "password":"alario2", "id":2 }
+  { "userId":"cristian", "password":"romero", "id":2 }
 ];
    constructor( private formBuilder: FormBuilder,
                 private ruta: Router,
