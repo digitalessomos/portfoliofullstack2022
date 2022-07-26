@@ -1,20 +1,27 @@
- .wrap-data {
-    margin-bottom: 25px;
-}
   
-.wrap-data p {
-    display: inline;
-    margin-right: 10px;
-}  
 .data-container {
-	display: flex;
-	justify-content: left;
-  margin:20px auto;
+ display:grid;
+ grid-template-columns:30% 5% 60% 5%; 
+
+ border:solid  3.5px black; 
+ border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+
+ padding:15px;
+ margin-bottom: 20px;
 }
+.wrap-data { 
+   position: relative; z-index: 3;
+   text-align: center;
+ }
+ .logo-image-container
+ {
+   position: relative;z-index: 2;opacity:0.6;
+   
+    
+  }
 
   .data-container div button{
-    padding: 0.5px 6px;
-	margin-right: 2px;
+    padding: 0.5px 6px; 
 	background-color: tomato;
 	color: white;
 	border: 1px solid grey;
@@ -25,12 +32,15 @@
 	letter-spacing: -1px;
 	word-spacing: -4px;
   font-size: 10px; 
-  }
-.items-list  {
-    margin: auto;
+  } 
+
+  
+.logo-image {
+	width: 150px;
+	height: 140px; 
 }
 #institucion {
-    font-size: 14px;
+    font-size: 20px;
     display: inline;
     font-family: 'Courier New', Courier, monospace; 
     font-style: italic;
@@ -45,7 +55,8 @@
   }
   
   #title {
-    font-size: 22px;font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;line-height: 38px;
+    font-family: 'Courier New', Courier, monospace;
     letter-spacing: -1px;font-weight: 600;
   }
 
@@ -55,8 +66,74 @@
   #btn-borrar:hover{
     opacity:1;
   }
-  @media (max-width:820px) {
    
+/*--------------*/
+.gallery-image { 
+  width: 100%; 
+}
+
+.gallery-image img {
+  height:100%;
+  width: 100%;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+
+.img-box {
+  box-sizing: content-box;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  background-color: white;
+}
+
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+
+.img-box:hover img {
+  transform: scale(1.6);
+}
+
+.img-box:hover .transparent-box {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+  transform: translateY(-20px);
+  opacity: 1.0;
+}
+
+.img-box:hover {cursor: pointer;}
+.caption>p:nth-child(2) {font-size: 0.8em;}
+.opacity-low {opacity: 0.5;}
+/*-------------------*/
+  @media (max-width:820px) {
+    .data-container {
+      width: 100%;
+     display:grid;
+     grid-template-columns:20% 1% 71% 8%;
+     padding:5px;
+      
+    }
     .wrap-data {
   margin-bottom: -5px;
     }
@@ -81,8 +158,12 @@
     } 
 
     .data-container div button{
-    margin-bottom: 2px;  
+   
     display: block; 
     
     } 
+    .logo-image {
+      width:50px;
+      height: 50%;  
+    }
   }

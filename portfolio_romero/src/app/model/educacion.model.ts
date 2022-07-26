@@ -23,5 +23,7 @@ export interface Educacion{
     img: String;
     start: String; 
     end: String; 
+    credencial: String; 
+    linkCredencial: String; 
     hide: boolean;
 }

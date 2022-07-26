@@ -18,6 +18,8 @@ export class EducacionService {
     "img":"./assets/img/logoedu1.jpg",
     "start":"2002",
     "end":"2005",
+    "credencial":"../../../assets/educacion/cole2.jpg",
+    "linkCredencial":"Solicitar original",
     "hide":true
 },
 {
@@ -27,6 +29,8 @@ export class EducacionService {
     "img":"./assets/img/logoedu2.png",
     "start":"Ago 2020",
     "end":"Nov 2020",
+    "credencial":"../../../assets/educacion/meanUdemy.jpg",
+    "linkCredencial":"https://udemy-certificate.s3.amazonaws.com/image/UC-8f9db880-f8f6-46d0-b442-a300e1e41412.jpg",
     "hide":true
 },
 {
@@ -36,6 +40,8 @@ export class EducacionService {
     "img":"./assets/img/logogoogle.png",
     "start":"Jun 2020",
     "end":"Sep 2020",
+    "credencial":"../../../assets/educacion/analytic.png",
+    "linkCredencial":"https://analytics.google.com/analytics/academy/certificate/rYWB0O8OQJCTgOngyUFWrw",
     "hide":true
 },
 {
@@ -45,6 +51,8 @@ export class EducacionService {
     "img":"./assets/educacion/1.png",
     "start":"Nov 2015",
     "end":"Jul 2017",
+    "credencial":"../../../assets/educacion/c3.jpg",
+    "linkCredencial":"Solicitar original",
     "hide":true
 },
 {
@@ -54,6 +62,8 @@ export class EducacionService {
     "img":"./assets/img/edutin.png",
     "start":"Nov 2019",
     "end":"Ago 2020",
+    "credencial":"../../../assets/educacion/Certificado1.png",
+    "linkCredencial":"https://edutin.com/certifications/view/2254909",
     "hide":true
 }  
 ];

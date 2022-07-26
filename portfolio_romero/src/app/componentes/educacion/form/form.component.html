@@ -1,7 +1,7 @@
 <div class="wrap-crud">
   <div>
   
-      <form (submit)= "agregarEducacion(newInsitucion,newTitulo,newImg,newInicio,newFin)">
+      <form (submit)= "agregarEducacion(newInsitucion,newTitulo,newImg,newCredencial,newInicio,newFin,newLinkCredencial)">
        
       <div class="form-group">
         <input type="text" placeholder="institucion" class="form-control" #newInsitucion >
@@ -10,7 +10,13 @@
         <input type="text"  placeholder="title" class="form-control" #newTitulo>
       </div>
       <div class="form-group">
-        <input type="text" placeholder="./assets/img/" class="form-control" #newImg >
+        <input type="text" placeholder="./assets/img/su iconImg" class="form-control" #newImg >
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="./assets/img/su credencialImg" class="form-control" #newCredencial >
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="./assets/img/ su link de credencial" class="form-control" #newLinkCredencial >
       </div>
       <div class="form-group">
         <input type="text" placeholder="Agregar" class="form-control" #newInicio>

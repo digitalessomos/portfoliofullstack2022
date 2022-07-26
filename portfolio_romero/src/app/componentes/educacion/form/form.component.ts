@@ -12,7 +12,7 @@ export class FormComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  agregarEducacion(newInsitucion: HTMLInputElement,newTitulo: HTMLInputElement,newImg: HTMLInputElement,newInicio: HTMLInputElement,newFin: HTMLInputElement){
+  agregarEducacion(newInsitucion: HTMLInputElement,newTitulo: HTMLInputElement,newImg: HTMLInputElement,newcredencial: HTMLInputElement,newLinkcredencial: HTMLInputElement,newInicio: HTMLInputElement,newFin: HTMLInputElement){
  if(newInsitucion.value === null){
 
  }else{
@@ -22,6 +22,8 @@ export class FormComponent implements OnInit {
     img: newImg.value,
     start: newInicio.value,
     end: newFin.value,
+    credencial: newcredencial.value,
+    linkCredencial: newLinkcredencial.value, 
     hide: true
   });
  }

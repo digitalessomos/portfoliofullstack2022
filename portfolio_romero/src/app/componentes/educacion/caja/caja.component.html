@@ -1,10 +1,23 @@
- <ul class="items-list">
-     <li class="data-container">
+ <div class="data-container">
      
-        
-         <div class="logo-image-container">
-           <img class="logo-image" [src]= "educacion.img">
-         </div>
+          <div class="gallery-image"> 
+            <div class="img-box">
+              <img [src]= "educacion.credencial" alt="" />
+              <div class="transparent-box">
+                <div class="caption">
+                  <p>
+                    <a [href]= "educacion.linkCredencial" target="_blank">
+                      ver credencial
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="logo-image-container">
+            <img class="logo-image" [src]= "educacion.img">
+          </div>
   
           <div class="wrap-data">
              <p id="institucion">{{ educacion.institucion }}</p>
@@ -19,6 +32,5 @@
                 Borrar
             </button>
           </div>
-         
-     </li>
-   </ul>
+</div>
+ 
