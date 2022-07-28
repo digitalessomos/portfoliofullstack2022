@@ -12,8 +12,8 @@ export class FormExperiencia implements OnInit {
   ngOnInit(): void {
   }
 
-  
-  agregarExperiencia(newEmpresa: HTMLInputElement,newPuesto: HTMLInputElement,newImg: HTMLInputElement,newStart: HTMLInputElement,newEnd: HTMLInputElement,newResponsabilidad: HTMLInputElement){
+  /*
+    agregarExperiencia(newEmpresa: HTMLInputElement,newPuesto: HTMLInputElement,newImg: HTMLInputElement,newStart: HTMLInputElement,newEnd: HTMLInputElement,newResponsabilidad: HTMLInputElement){
     
      this.experienciaService.addExperiencia({
        empresa: newEmpresa.value,
@@ -33,4 +33,6 @@ export class FormExperiencia implements OnInit {
            newEnd.value = ''; 
            return false;
          } 
+  */
+
 }

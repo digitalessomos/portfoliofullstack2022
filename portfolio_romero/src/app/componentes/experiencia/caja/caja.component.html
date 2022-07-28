@@ -18,13 +18,18 @@
             </div>
           </div>
        
-          <div>
-            <button (click)="experiencia.hide = !experiencia.hide">
-                Más
-            </button>
-            <button (click)="eliminarExperiencia(experiencia)" id="btn-borrar">
-                Borrar
-            </button>
+          <div class="wrap-ultimogrid">
+           
+              <div class="image-container4">
+                <img class="logo-image" [src]= "experiencia.tecnos[0]">
+                <img class="logo-image" [src]= "experiencia.tecnos[1]">
+                <img class="logo-image" [src]= "experiencia.tecnos[2]">
+                <img class="logo-image" [src]= "experiencia.tecnos[3]">
+              </div>
+        
+            <div> <button (click)="experiencia.hide = !experiencia.hide"> + </button> </div>
+           
           </div>
+        
 </div>
      

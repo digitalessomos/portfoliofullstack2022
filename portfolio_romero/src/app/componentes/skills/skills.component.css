@@ -13,10 +13,7 @@ h1{text-align:center;margin-bottom: 20px;}
   .marco{
     display:grid;
     grid-template-columns:30% 70%; 
-    margin:2px; padding:0 10px;
-    
- border:solid 2px black; 
- border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    margin:2px; 
 
   }
   .wrap-skilazos { 

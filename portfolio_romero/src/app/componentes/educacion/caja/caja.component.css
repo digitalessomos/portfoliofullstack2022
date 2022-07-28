@@ -1,6 +1,6 @@
 .data-container {
  display:grid;
- grid-template-columns:25% 55% 15% 5%;  
+ grid-template-columns:30% 60% 10%;  
  margin-bottom: 20px;
 }
 .wrap-data { 
@@ -13,24 +13,23 @@
   }
   
 .logo-image {
-    width: 90px;
-    height: 80px; 
+    width: 100%;
+    height: 100%; 
   }
-.data-container div button{
-    padding: 0.5px 6px; 
+.wrap-ultimogrid div div button{
+    padding: 5px; 
 	background-color: tomato;
 	color: white;
-	border: 1px solid grey;
-	border-radius: 6%;
-
-	display: inline;
-	font-family: 'Courier New', Courier, monospace;
-	letter-spacing: -1px;
-	word-spacing: -4px;
-  font-size: 10px; 
+	border: 1px solid tomato; 
+	font-family: 'Courier New', Courier, monospace; 
+  font-size: 14px; font-weight: 600;
+ 
+  border-radius: 50%;  
+  }   
+  .wrap-ultimogrid{
+ display:grid;
+ grid-template-rows: 50% 50%;
   } 
-
-
 #institucion {
     font-size: 20px;
     display: inline;
@@ -122,7 +121,7 @@
     .data-container {
       width: 100%;
      display:grid;
-     grid-template-columns:18% 65% 12% 5%; 
+     grid-template-columns:30% 60% 10%;
      padding:5px;
       
     }
@@ -149,10 +148,11 @@
       font-size: 12px;
     } 
 
-    .data-container div button{
-   
-    display: block; 
+    .wrap-ultimogrid div button{
+      padding:1px; 
     
+    font-size: 10px; font-weight: 600;
+   
     } 
     .logo-image {
       width:50px;  

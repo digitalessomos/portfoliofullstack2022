@@ -509,21 +509,14 @@ ul li:hover {
 	}
  
 .info-profesion{
-	font-size: 30px; line-height:28px;display:inline;
-	font-family: 'Courier New', Courier, monospace; 
-	position: relative;bottom:4px;
+	font-size: 30px; line-height:28px; 
+	font-family: 'Courier New', Courier, monospace;  
 }
 	.info-origen{ 
-		 text-shadow: none;display:inline-block; 
-		 position: relative;bottom:11px;
+		 text-shadow: none;   
 	}
 	
-#info-actions button {
-	 
-	font-size: 12px;
-	 
-	 
-}
+#info-actions button { font-size: 12px; }
 /*----------------*/
 	.img-wrapper:hover h2 {
 		transform: perspective(400px) rotateY(0deg);
