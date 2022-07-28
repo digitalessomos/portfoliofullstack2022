@@ -399,7 +399,7 @@ margin-left: -8px;
 
 	border: solid 3.5px black;
 	border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-	background: url('../../../assets/exp/12.webp');
+	/*background: url('../../../assets/exp/12.webp');*/
 }
 
 .close {
