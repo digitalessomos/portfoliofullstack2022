@@ -1,16 +1,21 @@
-<ul class="items-list">
-    <li>
-
-      <div class="data-container">
+<div class="data-container">
 
         <div class="logo-image-container">
           <img class="logo-image" [src]="experiencia.img">
         </div>
          
           <div class="wrap-data">
-            <p id="puesto">{{experiencia.empresa}}</p>
-            <p id="title">{{experiencia.puesto}}</p>
-            <p [hidden]= "experiencia.hide" id="time"><time>{{experiencia.start}}</time></p>
+            <div id="title">{{experiencia.puesto}}</div>
+            <div id="puesto">{{experiencia.empresa}}</div>
+            <div [hidden]= "experiencia.hide" id="time">
+              <ul class="responsabilidades">
+                <li>{{experiencia.responsabilidades[0]}}</li>
+                <li>{{experiencia.responsabilidades[1]}}</li>
+                <li>{{experiencia.responsabilidades[2]}}</li>
+                <li>{{experiencia.responsabilidades[3]}}</li> 
+              </ul>
+              <span id="time-expe"><time>{{experiencia.start}}</time></span>
+            </div>
           </div>
        
           <div>
@@ -21,7 +26,5 @@
                 Borrar
             </button>
           </div>
-
-      </div>
-    </li>
-  </ul>
+</div>
+     

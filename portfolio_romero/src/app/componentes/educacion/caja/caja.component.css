@@ -1,12 +1,6 @@
-  
 .data-container {
  display:grid;
- grid-template-columns:30% 5% 60% 5%; 
-
- border:solid  2.5px black; 
- border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-
- padding:15px;
+ grid-template-columns:25% 55% 15% 5%;  
  margin-bottom: 20px;
 }
 .wrap-data { 
@@ -15,12 +9,14 @@
  }
  .logo-image-container
  {
-   position: relative;z-index: 2;opacity:0.6;
-   
-    
+   position: relative;z-index: 2;opacity:0.6;  
   }
-
-  .data-container div button{
+  
+.logo-image {
+    width: 90px;
+    height: 80px; 
+  }
+.data-container div button{
     padding: 0.5px 6px; 
 	background-color: tomato;
 	color: white;
@@ -34,11 +30,7 @@
   font-size: 10px; 
   } 
 
-  
-.logo-image {
-	width: 150px;
-	height: 140px; 
-}
+
 #institucion {
     font-size: 20px;
     display: inline;
@@ -130,7 +122,7 @@
     .data-container {
       width: 100%;
      display:grid;
-     grid-template-columns:20% 1% 71% 8%;
+     grid-template-columns:18% 65% 12% 5%; 
      padding:5px;
       
     }
@@ -163,7 +155,6 @@
     
     } 
     .logo-image {
-      width:50px;
-      height: 50%;  
+      width:50px;  
     }
   }

@@ -12,28 +12,46 @@ export class ExperienciaService {
   constructor(private http: HttpClient) {
     this.experiencias = [
       {
-      "empresa":"Diseñador web",
+      "empresa":"Javascript developer",
       "puesto":"Freelancer",
-      "img":"./assets/img/logoexp11.png.crdownload",
+      "img":"./assets/exp/5.jpg",
       "start":"2016 - 2018",
       "end":"",
-      "hide":true
+      "hide":true,
+      "responsabilidades":[
+        "Modificar diseños y especificaciones de aplicaciones complejas.", 
+        "Comprender el requerimiento de software.",
+        "Modelizar y refinar especificaciones a fin de determinar un diseño detallado para implantar la funcionalidad requerida.", 
+        "Trabajar para construir aplicaciones con foco en la funcionalidad." 
+      ]
   },
   {
       "empresa":"Backend developer",
       "puesto":"Freelancer",
-      "img":"./assets/img/logoexp2.webp",
+      "img":"./assets/exp/3.jpg",
       "start":"Ago 2017 - Oct 2019",
       "end":"",
-      "hide":true
+      "hide":true,
+      "responsabilidades":[
+        "Participar en el desarrollo de aplicaciones web personalizadas o proyectos de integración de back-end", 
+        "Crear, integrar y gestionar bases de datos.",
+        "Almacenar datos y también asegúrarse de que se muestren al usuario mediante Node y SpringBoot.", 
+        "Administrar las funciones de la API." 
+      ]
   },
   {
       "empresa":"Frontend developer",
       "puesto":"Freelancer",
-      "img":"./assets/img/logoexp333.png",
+      "img":"./assets/exp/4.jpg",
       "start":"2019 - 2022",
       "end":"",
-      "hide":true
+      "hide":true,
+      "responsabilidades":[
+        "Llevar adelante los diseños digitales: home page, landings y piezas digitales para web, alineados al manual de marca.", 
+        "Maquetar los diseños para su implementación.",
+        "Asegurar la accesibilidad.", 
+        "consumo de APIs para conectar la web con servicios y sistemas." 
+      ]
   }
   ]
    }

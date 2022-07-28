@@ -1,7 +1,7 @@
 <div class="wrap-crud">
     <div>
     
-        <form (submit)= "agregarExperiencia(newEmpresa,newPuesto,newImg,newStart,newEnd)">
+        <form (submit)= "agregarExperiencia(newEmpresa,newPuesto,newImg,newStart,newEnd,newResponsabilidad)">
          
             <div class="form-group">
             <input type="text" placeholder="Agregar empresa" class="form-control" #newEmpresa>
@@ -17,6 +17,9 @@
             </div>
             <div class="form-group">
             <input type="text" placeholder="Agregar " class="form-control" #newEnd>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Agregar " class="form-control" #newResponsabilidad>
             </div>
 
             <button class="btn btn-primary">Agregar</button>

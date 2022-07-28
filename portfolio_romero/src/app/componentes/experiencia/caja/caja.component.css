@@ -2,39 +2,40 @@
     margin-bottom: 30px;
   }
   
-  .wrap-data p {
-    display: inline;
-    color: black;
-    margin-right: 20px;
-  
-  }
+.responsabilidades li{
+  list-style: circle;
+  font-size: 16px;
+}
   .data-container {
-      display: flex;
-      justify-content: left;
-      margin:20px auto;
-  }
-  
+      display:grid;
+      grid-template-columns:25% 65% 10%;
+      margin-bottom: 40px;
+  } 
 .logo-image {
-	width: 50px;
-	height: 40px; 
+	width: 100%;
+  height:100%;  
 } 
   #title { 
-    font-size: 22px; font-weight: 600;
+    font-size: 24px;line-height: 26px;  
+   
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
   }
   
   #puesto {
-    font-size: 14px;
-    letter-spacing: -1px;
-    display: inline; 
-    font-family: 'Courier New', Courier, monospace;
+   font-size: 36px;line-height: 38px;
+    letter-spacing: -1px;   font-weight: 600;
+    font-family: 'Courier New', Courier, monospace; text-align: center;
     font-style: italic;
     
   } 
   #time {
     font-style: italic;
     font-size: 12px;
-    color: grey;
+    color: rgb(110, 108, 108); 
+  }
+  #time-expe {
+   margin-left: 85%;
   }
 #btn-borrar{
     opacity:0;
@@ -58,29 +59,26 @@
 
   }
 @media (max-width:820px) {
+  .data-container {
+   
+    grid-template-columns:25% 55% 20%;
+}
  
-    .wrap-data {
-      margin-bottom: -5px;
-        }
-      
-        .wrap-data p {
-          display: block;
-      
-          margin-right: 0;
-        }
         .logo-image {
-          width: 40px;
-          height: 30px;
+          width: 110px;
+          height: 90px;
         }
         #title {
-          line-height: 25px;
-          font-size:25px;
+          line-height: 22px;
+          font-size:20px;
         }   
-        #puesto { font-size:12px; letter-spacing: 0.55px;}
+        #puesto { font-size:25px;line-height: 25px; letter-spacing: 0.55px;}
     #time {
-      transform: translateY(-12px);
-      font-size: 10px;
+        font-size: 10px;
     }
+    #time-expe {
+      margin-left: 80%;
+     }
 
     .data-container div button{
       margin-bottom: 2px;  

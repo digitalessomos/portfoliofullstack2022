@@ -13,7 +13,7 @@ export class FormExperiencia implements OnInit {
   }
 
   
-  agregarExperiencia(newEmpresa: HTMLInputElement,newPuesto: HTMLInputElement,newImg: HTMLInputElement,newStart: HTMLInputElement,newEnd: HTMLInputElement){
+  agregarExperiencia(newEmpresa: HTMLInputElement,newPuesto: HTMLInputElement,newImg: HTMLInputElement,newStart: HTMLInputElement,newEnd: HTMLInputElement,newResponsabilidad: HTMLInputElement){
     
      this.experienciaService.addExperiencia({
        empresa: newEmpresa.value,
@@ -21,7 +21,8 @@ export class FormExperiencia implements OnInit {
        img: newImg.value,
        start: newStart.value,
        end: newEnd.value,
-       hide: true
+       hide: true,
+       responsabilidades: true
      });
      
         

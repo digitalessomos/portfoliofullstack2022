@@ -14,16 +14,17 @@
               </div>
             </div>
           </div>
-      
-          <div class="logo-image-container">
-            <img class="logo-image" [src]= "educacion.img">
-          </div>
-  
+        
           <div class="wrap-data">
              <p id="institucion">{{ educacion.institucion }}</p>
              <p id="title">{{educacion.title}}</p>
              <p [hidden]= "educacion.hide" id="time"><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
           </div>
+
+          <div class="logo-image-container">
+            <img class="logo-image" [src]= "educacion.img">
+          </div>
+
           <div>
             <button (click)="educacion.hide = !educacion.hide">
                 Más
