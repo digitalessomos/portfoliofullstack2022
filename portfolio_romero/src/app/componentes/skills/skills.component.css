@@ -1,59 +1,107 @@
   /*--------------footer----------*/
-  #card-skills {
-    border: none;
-    width: 82%;
-    margin: 0 auto 2px auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-  }
-h1{text-align:center;margin-bottom: 20px;}
- 
-  /*--------------*/
-  .marco{
-    display:grid;
-    grid-template-columns:30% 70%; 
-    margin:2px; 
-
-  }
-  .wrap-skilazos { 
-    text-align: center;
-   display: flex;flex-direction: column;
- 
-  }
-   
-.marco ul li{ 
-   padding:4px 4px; font-size: 14px;line-height:16px;
-}
-
-.marco ul li:nth-child(2n){ 
- background-color: rgb(95, 92, 92);color: white;
-}
-  /*-----Botones para manipular------*/
- 
-  .wrap-btns {
-    display: flex;
-    position: relative;
-    right: 5px;
-  }
-
   
- h4{ 
-    padding: 4px 12px; 
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
-    color: rgb(11, 2, 66);
-    display: inline;
-  } 
-/*---------------*/
-@media (max-width:920px) {
-  #card-skills {   width:95%;  grid-template-columns:1fr;
-   
-  }   
-  .wrap-footer {
-    color: white; 
-   }
-  footer p {
-    line-height: 7px; 
+  #card-skills {
+      border: none;
+      width: 82%;
+      margin: 0 auto 2px auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
   }
-}
+  
+  h1 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  /*--------------*/
+  
+  .marco {
+      display: grid;
+      grid-template-columns: 35% 65%;
+      margin: 2px;
+  }
+  
+  .wrap-skilazos {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  ul {
+      margin: 0 0 0 0;
+      padding: 0 0 0 0;
+  }
+  
+  ul li {
+      padding: 4px 4px;
+      font-size: 14px;
+      line-height: 16px;
+  }
+  
+  ul li:nth-child(2n) {
+      background-color: rgb(95, 92, 92);
+      color: white;
+  }
+  /*-----Botones para manipular------*/
+  
+  .wrap-btns {
+      display: flex;
+      position: relative;
+      right: 5px;
+  }
+  
+  h4 {
+      font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #titulo-front h1 {
+      background-color: rgb(250, 32, 32);
+  }
+  
+  #titulo-back h1 {
+      background-color: rgb(47, 47, 255);
+  }
+  
+  #titulo-soft h1 {
+      background-color: goldenrod;
+  }
+  
+  #titulo-front h1,
+  #titulo-back h1,
+  #titulo-soft h1 {
+      padding: 0 10px;
+      display: inline;
+      text-align: center;
+  }
+  
+  #titulo-front,
+  #titulo-back,
+  #titulo-soft {
+      text-align: center;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      margin-bottom: 15px;
+  }
+  /*---------------*/
+  
+  @media (max-width:920px) {
+      #card-skills {
+          width: 100%;
+          grid-template-columns: 1fr;
+          margin: 0;
+      }
+      .wrap-footer {
+          color: white;
+      }
+      footer p {
+          line-height: 7px;
+      }
+      .marco {
+          grid-template-columns: 100%;
+          margin: 0;
+          margin-bottom: 20px;
+      }
+      .requisitos {
+          background: rgb(237, 252, 139);
+          color: black;
+      }
+  }

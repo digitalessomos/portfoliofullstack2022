@@ -1,46 +1,34 @@
- <div class="data-container">
-     
-          <div class="gallery-image"> 
-            <div class="img-box">
-              <img [src]= "educacion.credencial" alt="" />
-              <div class="transparent-box">
-                <div class="caption">
-                  <p>
-                    <a [href]= "educacion.linkCredencial" target="_blank">
-                      ver credencial
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        
-          <div class="wrap-data">
-             <p id="institucion">{{ educacion.institucion }}</p>
-             <p id="title">{{educacion.title}}</p>
-            
-             <p [hidden]= "educacion.hide" id="time"><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
-          </div>
+<div class="data-container">
 
-          <div class="wrap-ultimogrid">
-             
-            <div class="logo-image-container"><img class="logo-image" [src]= "educacion.img"></div>
-             
-            <div>
-              <div><button (click)="educacion.hide = !educacion.hide" id="btn-edu-mas">+</button>
-                <!--
+    <div class="gallery-image">
+        <div class="img-box">
+            <img [src]="educacion.credencial" alt="" />
+            <div class="transparent-box">
+                <div class="caption">
+                    <p>
+                        <a [href]="educacion.linkCredencial" target="_blank">
+              ver credencial
+            </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-data">
+        <p id="institucion">{{ educacion.institucion }}</p>
+        <p id="title">{{educacion.title}}</p>
+        <button (click)="educacion.hide = !educacion.hide">+</button>
+
+        <p [hidden]="educacion.hide" id="time"><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
+    </div>
+
+    <div class="logo-image-container"><img class="logo-image" [src]="educacion.img"></div>
+
+</div>
+
+<!--
                 <button (click)="eliminarEducacion(educacion)" id="btn-borrar">
                     Borrar
                 </button>
                 -->
-              
-              </div>
-            </div>
-
-          </div>
-          
-        
-
-         
-</div>
- 

@@ -1,97 +1,106 @@
 <div class="row wrap-titulo" id="idiomas">
 
-  <div class="col-lg-8">
-    <div class="parallax img-tres" id="skills">
-      <h2 class="texto-interior">
-        Skills
-      </h2>
+    <div class="col-lg-8">
+        <div class="parallax img-tres" id="skills">
+            <h2 class="texto-interior">
+                Skills
+            </h2>
+        </div>
     </div>
-  </div>
 
-  <div class="col-lg-4 wrap-img">
-    <img src="../../../assets/educacion/s7.jpg">
-  </div>
+    <div class="col-lg-4 wrap-img">
+        <img src="../../../assets/educacion/s7.jpg">
+    </div>
 
 </div>
 
-<h1>Front end</h1>
+<div id="titulo-front">
+    <h1>Front end</h1>
+</div>
+
 <div id="card-skills">
 
-   <div class="marco" *ngFor="let skill of skillFront">
+    <div class="marco" *ngFor="let skill of skillFront">
 
-      <div class="wrap-skilazos">
-          <circle-progress [percent]="90" [radius]="75" [imageSrc]="skill.img" [showImage]="true" [imageHeight]="88"
-          [imageWidth]="88" [showUnits]="false" [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="3"
-          [outerStrokeColor]="'#78C000'" [innerStrokeColor]="'#C7E596'" [animation]="true" [animationDuration]="300">
-        </circle-progress>
-        <h4>{{skill.habilidad}}</h4>
-      </div>
+        <div class="wrap-skilazos">
+            <h4>{{skill.habilidad}}</h4>
+            <circle-progress [percent]="90" [radius]="75" [imageSrc]="skill.img" [showImage]="true" [imageHeight]="88" [imageWidth]="88" [showUnits]="false" [showSubtitle]="false" [outerStrokeWidth]="11" [innerStrokeWidth]="2" [outerStrokeColor]="'#78C000'" [innerStrokeColor]="'#C7E596'"
+                [animation]="true" [animationDuration]="300">
+            </circle-progress>
+        </div>
 
-      <ul class="requisitos">
-        <li>{{skill.responsabilidades[0]}}</li>
-        <li>{{skill.responsabilidades[1]}}</li>
-        <li>{{skill.responsabilidades[2]}}</li>
-        <li>{{skill.responsabilidades[3]}}</li>
-        <li>{{skill.responsabilidades[4]}}</li>
-        <li>{{skill.responsabilidades[5]}}</li>
-        <li>{{skill.responsabilidades[6]}}</li>
-        <li>{{skill.responsabilidades[7]}}</li>
-      </ul>
+        <ul class="requisitos">
+            <li>{{skill.responsabilidades[0]}}</li>
+            <li>{{skill.responsabilidades[1]}}</li>
+            <li>{{skill.responsabilidades[2]}}</li>
+            <li>{{skill.responsabilidades[3]}}</li>
+            <li>{{skill.responsabilidades[4]}}</li>
+            <li>{{skill.responsabilidades[5]}}</li>
+            <li>{{skill.responsabilidades[6]}}</li>
+            <li>{{skill.responsabilidades[7]}}</li>
+        </ul>
 
-   </div> 
+    </div>
 </div>
 
-<h1>Back end</h1>
-<div class="card" id="card-skills">
-  
-  <div class="marco" *ngFor="let skill of skillBack">
-
-   <div class="wrap-skilazos">
-       <circle-progress [percent]="90" [radius]="75" [imageSrc]="skill.img" [showImage]="true" [imageHeight]="88"
-       [imageWidth]="88" [showUnits]="false" [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="3"
-       [outerStrokeColor]="'#78C000'" [innerStrokeColor]="'#C7E596'" [animation]="true" [animationDuration]="300">
-     </circle-progress>
-     <h4>{{skill.habilidad}}</h4>
-   </div>
-
-   <ul class="requisitos">
-    <li>{{skill.responsabilidades[0]}}</li>
-    <li>{{skill.responsabilidades[1]}}</li>
-    <li>{{skill.responsabilidades[2]}}</li>
-    <li>{{skill.responsabilidades[3]}}</li>
-    <li>{{skill.responsabilidades[4]}}</li>
-    <li>{{skill.responsabilidades[5]}}</li>
-  </ul>
-
-
-  </div>
-
-  
+<div id="titulo-back">
+    <h1>Back end</h1>
 </div>
 
-<h1>Soft</h1>
 <div class="card" id="card-skills">
- 
-  <div class="marco" *ngFor="let skill of skillSoft">
 
-   <div class="wrap-skilazos">
-       <circle-progress [percent]="90" [radius]="75" [imageSrc]="skill.img" [showImage]="true" [imageHeight]="88"
-       [imageWidth]="88" [showUnits]="false" [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="3"
-       [outerStrokeColor]="'#78C000'" [innerStrokeColor]="'#C7E596'" [animation]="true" [animationDuration]="300">
-     </circle-progress>
-     <h4>{{skill.habilidad}}</h4>
-   </div>
-  
-   <ul class="requisitos">
-    <li>{{skill.responsabilidades[0]}}</li>
-    <li>{{skill.responsabilidades[1]}}</li>
-    <li>{{skill.responsabilidades[2]}}</li>
-    <li>{{skill.responsabilidades[3]}}</li>
-    <li>{{skill.responsabilidades[4]}}</li>
-    <li>{{skill.responsabilidades[5]}}</li>
-    <li>{{skill.responsabilidades[6]}}</li>
-    <li>{{skill.responsabilidades[7]}}</li>
-  </ul>
-  
-  </div>
+    <div class="marco" *ngFor="let skill of skillBack">
+
+        <div class="wrap-skilazos">
+
+            <h4>{{skill.habilidad}}</h4>
+            <circle-progress [percent]="90" [radius]="75" [imageSrc]="skill.img" [showImage]="true" [imageHeight]="88" [imageWidth]="88" [showUnits]="false" [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="3" [outerStrokeColor]="'#78C000'" [innerStrokeColor]="'#C7E596'"
+                [animation]="true" [animationDuration]="300">
+            </circle-progress>
+        </div>
+
+        <ul class="requisitos">
+            <li>{{skill.responsabilidades[0]}}</li>
+            <li>{{skill.responsabilidades[1]}}</li>
+            <li>{{skill.responsabilidades[2]}}</li>
+            <li>{{skill.responsabilidades[3]}}</li>
+            <li>{{skill.responsabilidades[4]}}</li>
+            <li>{{skill.responsabilidades[5]}}</li>
+        </ul>
+
+
+    </div>
+
+
+</div>
+
+<div id="titulo-soft">
+    <h1>Soft</h1>
+</div>
+
+<div class="card" id="card-skills">
+
+    <div class="marco" *ngFor="let skill of skillSoft">
+
+        <div class="wrap-skilazos">
+
+            <h4>{{skill.habilidad}}</h4>
+            <circle-progress [percent]="90" [radius]="75" [imageSrc]="skill.img" [showImage]="true" [imageHeight]="88" [imageWidth]="88" [showUnits]="false" [showSubtitle]="false" [outerStrokeWidth]="16" [innerStrokeWidth]="3" [outerStrokeColor]="'#78C000'" [innerStrokeColor]="'#C7E596'"
+                [animation]="true" [animationDuration]="300">
+            </circle-progress>
+
+        </div>
+
+        <ul class="requisitos">
+            <li>{{skill.responsabilidades[0]}}</li>
+            <li>{{skill.responsabilidades[1]}}</li>
+            <li>{{skill.responsabilidades[2]}}</li>
+            <li>{{skill.responsabilidades[3]}}</li>
+            <li>{{skill.responsabilidades[4]}}</li>
+            <li>{{skill.responsabilidades[5]}}</li>
+            <li>{{skill.responsabilidades[6]}}</li>
+            <li>{{skill.responsabilidades[7]}}</li>
+        </ul>
+
+    </div>
 </div>

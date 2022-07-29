@@ -46,7 +46,7 @@ export class skillsComponent implements OnInit {
  /*------------------------------------*/
 skillBack: any=[  
 {
-  "habilidad":"Server(API) layer",
+  "habilidad":"Server layer",
   "img":"../assets/node2.png",
   "responsabilidades":
   [
