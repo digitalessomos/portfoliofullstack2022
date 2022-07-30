@@ -12,7 +12,7 @@ export class ExperienciaService {
   constructor(private http: HttpClient) {
     this.experiencias = [
       {
-      "empresa":"Javascript developer",
+      "empresa": "Javascript developer" ,
       "puesto":"Freelancer",
       "img":"./assets/exp/5.jpg",
       "start":"2016 - 2018",
