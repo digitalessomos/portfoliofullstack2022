@@ -181,7 +181,6 @@ p a:hover {
     letter-spacing: -1px;
     font-weight: 600;
     font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
 }
 
 @media (max-width:920px) {
@@ -218,9 +217,5 @@ p a:hover {
     #title {
         font-size: 26px;
         line-height: 28px;
-        letter-spacing: -1px;
-        font-weight: 600;
-        font-family: 'Courier New', Courier, monospace;
-        font-style: italic;
     }
 }

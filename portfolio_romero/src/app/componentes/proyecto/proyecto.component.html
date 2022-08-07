@@ -74,29 +74,10 @@
 
         <div class="wrap-data">
             <div id="title">{{proyecto.nombre}}</div>
-
-            <!--
- <div id="puesto">{{proyecto.empresa}}</div>
-        <button (click)="proyecto.hide = !proyecto.hide">+</button>
-
-        <div [hidden]="proyecto.hide" id="time">
-            <ul class="responsabilidades">
-                <li>{{proyecto.responsabilidades[0]}}</li>
-                <li>{{proyecto.responsabilidades[1]}}</li>
-                <li>{{proyecto.responsabilidades[2]}}</li>
-                <li>{{proyecto.responsabilidades[3]}}</li>
-            </ul>
-
-            <div class="wrap-exp-proy">
-                <div>dsdsds</div>
-                <div>jhjhjhj</div>
+            <button (click)="proyecto.hide = !proyecto.hide">+</button>
+            <div [hidden]="proyecto.hide">
+                <p>{{proyecto.descripcion}} </p>
             </div>
-
-            <span id="time-expe"><time>{{proyecto.start}}</time></span>
-        </div>
-        -->
-
-
         </div>
 
     </div>

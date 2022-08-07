@@ -24,7 +24,8 @@ export class skillsComponent implements OnInit {
     "Experiencia con Ajax and Websockets.",
     "Experiencia con servicios API REST y diseño de interfaces",
     "Conocimiento de Bases de Datos y lenguaje de consultas estructurado."
-  ]
+  ],
+  "hide":true
 },
 {
     "habilidad":"Client layer",
@@ -39,7 +40,8 @@ export class skillsComponent implements OnInit {
     "Implementación teniendo como entrada las especificaciones de software ", 
     "Conocimiento de Programación Orientada a Objetos y Clases.",
     "Construir o adaptar clases en TypeScript, módulos u otras piezas de software"
-]
+],
+"hide":true
 }
 
 ]
@@ -57,7 +59,8 @@ skillBack: any=[
   "Procesar objetos recibidos del navegador a través de middlewares.",
   "Dividir mi app en partes, a delegar tareas.",
   "Procesar datos del usuario insertados en la interfaz."
-]
+],
+"hide":true
 },
 {
   "habilidad":"Hoisting",
@@ -65,7 +68,8 @@ skillBack: any=[
   "responsabilidades":
   [
   "Conocimiento de herramientas de control de versiones como GIT." 
-]
+],
+"hide":true
 } 
 ]
 
@@ -79,7 +83,8 @@ skillSoft: any=[
   "Five certificates of verifiable English experience.",
   "Intermediate French knowledge. Advanced oral and intermediate written French communication skills", 
   "Two  certificates of verifiable French experience." 
-]
+],
+"hide":true
 },
 {
   "habilidad":"Conversational skills",
@@ -93,7 +98,8 @@ skillSoft: any=[
   "Flexible y adaptable a diferentes necesidades, con la capacidad de volver a priorizar las tareas según sea necesario.",
   "Nociones de arquitectura de software y aplicaciones N-Capas",
   "Mucha creatividad y organización, además de alto compromiso con el proyecto" 
-]
+],
+"hide":true
 }
 ]
   constructor(public router: Router) { }

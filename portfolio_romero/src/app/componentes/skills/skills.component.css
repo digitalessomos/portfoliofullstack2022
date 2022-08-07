@@ -1,11 +1,10 @@
   /*--------------footer----------*/
   
   #card-skills {
+      width: 70%;
+      margin: 0 auto;
       border: none;
-      width: 82%;
-      margin: 0 auto 2px auto;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+      margin-top: 35px;
   }
   
   h1 {
@@ -82,6 +81,35 @@
       margin-bottom: 15px;
   }
   /*---------------*/
+  /*---------------*/
+  
+  .data-container {
+      display: grid;
+      grid-template-columns: 35% 65%;
+      margin-bottom: 40px;
+  }
+  
+  .image-container4 {
+      display: grid;
+  }
+  
+  .logo-image {
+      width: 100%;
+      height: 100%;
+      max-height: 150px;
+  }
+  
+  .wrap-data {
+      text-align: center;
+  }
+  
+  #title {
+      font-size: 36px;
+      line-height: 38px;
+      letter-spacing: -1px;
+      font-weight: 600;
+      font-family: 'Courier New', Courier, monospace;
+  }
   
   @media (max-width:920px) {
       #card-skills {
@@ -100,8 +128,9 @@
           margin: 0;
           margin-bottom: 20px;
       }
-      .requisitos {
-          background: rgb(237, 252, 139);
-          color: black;
+      /*----*/
+      #title {
+          font-size: 26px;
+          line-height: 28px;
       }
   }

@@ -10,7 +10,7 @@
  .data-container {
      display: grid;
      grid-template-columns: 35% 65%;
-     margin-bottom: 40px;
+     margin-bottom: 20px;
  }
  
  .image-container4 {
@@ -63,18 +63,6 @@
  #btn-borrar:hover {
      opacity: 1;
  }
- 
- .wrap-data button {
-     padding: 1px 3px;
-     background-color: grey;
-     color: white;
-     border: 1px solid white;
-     font-family: 'Courier New', Courier, monospace;
-     font-size: 18px;
-     font-weight: 600;
-     border-radius: 50%;
-     margin-top: 5px;
- }
  /*---------------*/
  
  .wrap-exp-proy {
@@ -103,16 +91,11 @@
      #time-expe {
          margin-left: 0%;
      }
-     .wrap-data button {
-         padding: 2px 3px;
-         font-size: 13px;
-         font-weight: 600;
-     }
      .image-container4,
      .image-grid1 {
          max-height: 100px;
      }
      .data-container {
-         margin-bottom: 6 0px;
+         margin-bottom: 70px;
      }
  }
