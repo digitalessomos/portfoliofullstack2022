@@ -28,17 +28,20 @@
   ul {
       margin: 0 0 0 0;
       padding: 0 0 0 0;
+      display: inline;
   }
   
   ul li {
       padding: 4px 4px;
       font-size: 14px;
       line-height: 16px;
+      width: 60%;
+      margin-left: auto;
   }
   
   ul li:nth-child(2n) {
-      background-color: rgb(95, 92, 92);
-      color: white;
+      background-color: rgb(229, 229, 248);
+      color: black;
   }
   /*-----Botones para manipular------*/
   
@@ -86,7 +89,6 @@
   .data-container {
       display: grid;
       grid-template-columns: 35% 65%;
-      margin-bottom: 40px;
   }
   
   .image-container4 {
@@ -100,7 +102,10 @@
   }
   
   .wrap-data {
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   }
   
   #title {
@@ -109,6 +114,7 @@
       letter-spacing: -1px;
       font-weight: 600;
       font-family: 'Courier New', Courier, monospace;
+      text-align: center;
   }
   
   @media (max-width:920px) {
@@ -132,5 +138,9 @@
       #title {
           font-size: 26px;
           line-height: 28px;
+      }
+      /*-----*/
+      ul li {
+          width: 100%;
       }
   }

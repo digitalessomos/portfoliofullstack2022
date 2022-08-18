@@ -64,8 +64,8 @@
 </div>
 ---------------------->
 <!---------------------------------------------->
-<div id="card-experiencia">
-    <div class="data-container" *ngFor="let proyecto of proyectoList">
+<div id="card-experiencia" *ngFor="let proyecto of proyectoList">
+    <div class="data-container">
 
         <div class="image-container4">
             <img class="logo-image" [src]="proyecto.img">
@@ -75,10 +75,12 @@
         <div class="wrap-data">
             <div id="title">{{proyecto.nombre}}</div>
             <button (click)="proyecto.hide = !proyecto.hide">+</button>
-            <div [hidden]="proyecto.hide">
-                <p>{{proyecto.descripcion}} </p>
-            </div>
+
         </div>
 
+    </div>
+
+    <div [hidden]="proyecto.hide" id="escondido">
+        <p>{{proyecto.descripcion}} </p>
     </div>
 </div>

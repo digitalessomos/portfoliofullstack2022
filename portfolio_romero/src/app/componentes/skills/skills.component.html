@@ -18,8 +18,8 @@
     <h1>Front end</h1>
 </div>
 
-<div id="card-skills">
-    <div class="data-container" *ngFor="let skill of skillFront">
+<div id="card-skills" *ngFor="let skill of skillFront">
+    <div class="data-container">
 
         <div class="image-container4">
             <img class="logo-image" [src]="skill.img">
@@ -29,18 +29,7 @@
         <div class="wrap-data">
             <div id="title">{{skill.habilidad}}</div>
             <button (click)="skill.hide = !skill.hide">+</button>
-            <div [hidden]="skill.hide">
-                <ul class="requisitos">
-                    <li>{{skill.responsabilidades[0]}}</li>
-                    <li>{{skill.responsabilidades[1]}}</li>
-                    <li>{{skill.responsabilidades[2]}}</li>
-                    <li>{{skill.responsabilidades[3]}}</li>
-                    <li>{{skill.responsabilidades[4]}}</li>
-                    <li>{{skill.responsabilidades[5]}}</li>
-                    <li>{{skill.responsabilidades[6]}}</li>
-                    <li>{{skill.responsabilidades[7]}}</li>
-                </ul>
-            </div>
+
         </div>
 
     </div>
@@ -67,15 +56,26 @@
 
     </div>
     -->
-
+    <div [hidden]="skill.hide">
+        <ul class="requisitos">
+            <li>{{skill.responsabilidades[0]}}</li>
+            <li>{{skill.responsabilidades[1]}}</li>
+            <li>{{skill.responsabilidades[2]}}</li>
+            <li>{{skill.responsabilidades[3]}}</li>
+            <li>{{skill.responsabilidades[4]}}</li>
+            <li>{{skill.responsabilidades[5]}}</li>
+            <li>{{skill.responsabilidades[6]}}</li>
+            <li>{{skill.responsabilidades[7]}}</li>
+        </ul>
+    </div>
 </div>
 
 <div id="titulo-back">
     <h1>Back end</h1>
 </div>
 
-<div class="card" id="card-skills">
-    <div class="data-container" *ngFor="let skill of skillBack">
+<div class="card" id="card-skills" *ngFor="let skill of skillBack">
+    <div class="data-container">
 
         <div class="image-container4">
             <img class="logo-image" [src]="skill.img">
@@ -85,20 +85,22 @@
         <div class="wrap-data">
             <div id="title">{{skill.habilidad}}</div>
             <button (click)="skill.hide = !skill.hide">+</button>
-            <div [hidden]="skill.hide">
-                <ul class="requisitos">
-                    <li>{{skill.responsabilidades[0]}}</li>
-                    <li>{{skill.responsabilidades[1]}}</li>
-                    <li>{{skill.responsabilidades[2]}}</li>
-                    <li>{{skill.responsabilidades[3]}}</li>
-                    <li>{{skill.responsabilidades[4]}}</li>
-                    <li>{{skill.responsabilidades[5]}}</li>
-                    <li>{{skill.responsabilidades[6]}}</li>
-                    <li>{{skill.responsabilidades[7]}}</li>
-                </ul>
-            </div>
+
         </div>
 
+    </div>
+
+    <div [hidden]="skill.hide">
+        <ul class="requisitos">
+            <li>{{skill.responsabilidades[0]}}</li>
+            <li>{{skill.responsabilidades[1]}}</li>
+            <li>{{skill.responsabilidades[2]}}</li>
+            <li>{{skill.responsabilidades[3]}}</li>
+            <li>{{skill.responsabilidades[4]}}</li>
+            <li>{{skill.responsabilidades[5]}}</li>
+            <li>{{skill.responsabilidades[6]}}</li>
+            <li>{{skill.responsabilidades[7]}}</li>
+        </ul>
     </div>
     <!--
    <div class="marco" *ngFor="let skill of skillBack">
@@ -127,8 +129,8 @@
     <h1>Soft</h1>
 </div>
 
-<div class="card" id="card-skills">
-    <div class="data-container" *ngFor="let skill of skillSoft">
+<div class="card" id="card-skills" *ngFor="let skill of skillSoft">
+    <div class="data-container">
 
         <div class="image-container4">
             <img class="logo-image" [src]="skill.img">
@@ -138,20 +140,22 @@
         <div class="wrap-data">
             <div id="title">{{skill.habilidad}}</div>
             <button (click)="skill.hide = !skill.hide">+</button>
-            <div [hidden]="skill.hide">
-                <ul class="requisitos">
-                    <li>{{skill.responsabilidades[0]}}</li>
-                    <li>{{skill.responsabilidades[1]}}</li>
-                    <li>{{skill.responsabilidades[2]}}</li>
-                    <li>{{skill.responsabilidades[3]}}</li>
-                    <li>{{skill.responsabilidades[4]}}</li>
-                    <li>{{skill.responsabilidades[5]}}</li>
-                    <li>{{skill.responsabilidades[6]}}</li>
-                    <li>{{skill.responsabilidades[7]}}</li>
-                </ul>
-            </div>
+
         </div>
 
+    </div>
+
+    <div [hidden]="skill.hide">
+        <ul class="requisitos">
+            <li>{{skill.responsabilidades[0]}}</li>
+            <li>{{skill.responsabilidades[1]}}</li>
+            <li>{{skill.responsabilidades[2]}}</li>
+            <li>{{skill.responsabilidades[3]}}</li>
+            <li>{{skill.responsabilidades[4]}}</li>
+            <li>{{skill.responsabilidades[5]}}</li>
+            <li>{{skill.responsabilidades[6]}}</li>
+            <li>{{skill.responsabilidades[7]}}</li>
+        </ul>
     </div>
 
     <!--

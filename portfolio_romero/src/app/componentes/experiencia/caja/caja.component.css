@@ -1,16 +1,22 @@
+ .wrap-gral {
+     margin-bottom: 30px;
+ }
+ 
  .responsabilidades li {
      list-style: circle;
      font-size: 16px;
  }
  
  .wrap-data {
-     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
  }
  
  .data-container {
      display: grid;
      grid-template-columns: 35% 65%;
-     margin-bottom: 20px;
  }
  
  .image-container4 {
@@ -44,16 +50,22 @@
      font-weight: 600;
      font-family: 'Courier New', Courier, monospace;
      font-style: italic;
+     text-align: center;
  }
  
  #time {
      font-style: italic;
      font-size: 12px;
      color: rgb(110, 108, 108);
+     width: 65%;
+     margin-left: auto;
  }
  
  #time-expe {
-     margin-left: 85%;
+     background-color: rgb(137, 135, 135);
+     color: white;
+     padding: 3px 10px;
+     text-align: center;
  }
  
  #btn-borrar {
@@ -68,7 +80,9 @@
  .wrap-exp-proy {
      display: grid;
      grid-template-columns: 100px 100px;
-     grid-template-rows: 50px;
+     grid-template-rows: auto;
+     width: 200px;
+     margin-left: auto;
  }
  
  .h2-json {
@@ -87,6 +101,8 @@
      }
      #time {
          font-size: 10px;
+         width: 100%;
+         margin-left: auto;
      }
      #time-expe {
          margin-left: 0%;

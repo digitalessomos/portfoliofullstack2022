@@ -5,9 +5,11 @@
 }
 
 .wrap-data {
-    position: relative;
     z-index: 3;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-image-container {
@@ -42,6 +44,7 @@
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: -1px;
     font-weight: 600;
+    text-align: center;
 }
 
 #btn-borrar {

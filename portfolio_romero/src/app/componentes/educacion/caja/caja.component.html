@@ -16,11 +16,11 @@
     </div>
 
     <div class="wrap-data">
-        <p id="institucion">{{ educacion.institucion }}</p>
-        <p id="title">{{educacion.title}}</p>
+        <div id="institucion">{{ educacion.institucion }}</div>
+        <div id="title">{{educacion.title}}</div>
         <button (click)="educacion.hide = !educacion.hide">+</button>
 
-        <p [hidden]="educacion.hide" id="time"><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></p>
+        <div [hidden]="educacion.hide" id="time"><time>{{educacion.start}}</time> - <time>{{educacion.end}}</time></div>
     </div>
     <!--
      <div class="logo-image-container"><img class="logo-image" [src]="educacion.img"></div>

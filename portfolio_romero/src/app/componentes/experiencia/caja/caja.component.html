@@ -1,38 +1,34 @@
-<div class="data-container">
-    <!--
-    <div class="logo-image-container">
-        <img class="image-grid1" [src]="experiencia.img">
-    </div>  
--->
+<div class="wrap-gral">
 
-    <div class="image-container4">
-        <img class="logo-image" [src]="experiencia.tecnos[0]">
-        <img class="logo-image" [src]="experiencia.tecnos[1]">
-        <img class="logo-image" [src]="experiencia.tecnos[2]">
-        <img class="logo-image" [src]="experiencia.tecnos[3]">
-    </div>
+    <div class="data-container">
 
-    <div class="wrap-data">
-        <div id="title">{{experiencia.puesto}}</div>
-        <div id="puesto">{{experiencia.empresa}}</div>
-        <button (click)="experiencia.hide = !experiencia.hide">+</button>
-
-        <div [hidden]="experiencia.hide" id="time">
-            <ul class="responsabilidades">
-                <li>{{experiencia.responsabilidades[0]}}</li>
-                <li>{{experiencia.responsabilidades[1]}}</li>
-                <li>{{experiencia.responsabilidades[2]}}</li>
-                <li>{{experiencia.responsabilidades[3]}}</li>
-            </ul>
-
-            <div class="wrap-exp-proy">
-                <div>dsdsds</div>
-                <div>jhjhjhj</div>
-            </div>
-
-            <span id="time-expe"><time>{{experiencia.start}}</time></span>
+        <div class="image-container4">
+            <img class="logo-image" [src]="experiencia.tecnos[0]">
+            <img class="logo-image" [src]="experiencia.tecnos[1]">
+            <img class="logo-image" [src]="experiencia.tecnos[2]">
+            <img class="logo-image" [src]="experiencia.tecnos[3]">
         </div>
 
+        <div class="wrap-data">
+            <div id="title">{{experiencia.puesto}}</div>
+            <div id="puesto">{{experiencia.empresa}}</div>
+            <button (click)="experiencia.hide = !experiencia.hide">+</button>
+        </div>
     </div>
 
+    <div [hidden]="experiencia.hide" id="time">
+        <ul class="responsabilidades">
+            <li>{{experiencia.responsabilidades[0]}}</li>
+            <li>{{experiencia.responsabilidades[1]}}</li>
+            <li>{{experiencia.responsabilidades[2]}}</li>
+            <li>{{experiencia.responsabilidades[3]}}</li>
+        </ul>
+
+        <div class="wrap-exp-proy">
+            <div>proyecto 1</div>
+            <div>proyecto 2</div>
+        </div>
+
+        <span id="time-expe"><time>{{experiencia.start}}</time></span>
+    </div>
 </div>

@@ -60,14 +60,17 @@
 
 .wrapLogos {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    margin-left: 20px;
+    grid-template-columns: repeat(5, auto);
+    margin-left: 10px;
     margin-top: 10px;
 }
 
 .wrapLogos p {
     font-size: 26px;
+    border-left: 1px solid rgb(196, 243, 8);
     font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+    padding-left: 2px;
 }
 
 .wrapLogos p a {
@@ -165,7 +168,7 @@
 
 .img-wrapper h2 {
     background-color: black;
-    color: red;
+    color: white;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Courier New', Courier, monospace;
@@ -214,7 +217,7 @@
     font-size: 45px;
     line-height: 42px;
     display: inline;
-    color: red;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -332,8 +335,8 @@
     text-align: center;
     font-size: 90px;
     line-height: 90px;
-    color: red;
-    text-shadow: 1px 1px 1px white, -1px -1px 1px white;
+    color: rgb(196, 243, 8);
+    text-shadow: 1px 1px 1px blue, -1px -1px 1px blue;
     font-family: 'Montserrat Subrayada', sans-serif;
 }
 
@@ -594,8 +597,7 @@ ul li:hover {
     }
     .wrapLogos p {
         font-size: 13px;
-        border-left: 1px solid red;
-        margin-left: 3px;
+        margin-left: 4px;
     }
     .wrapLogos {
         margin-left: 3px;
