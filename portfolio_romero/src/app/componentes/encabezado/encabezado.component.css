@@ -67,7 +67,6 @@
 
 .wrapLogos p {
     font-size: 26px;
-    border-left: 1px solid rgb(196, 243, 8);
     font-family: 'Courier New', Courier, monospace;
     margin-left: 10px;
     padding-left: 2px;
@@ -75,7 +74,7 @@
 
 .wrapLogos p a {
     text-decoration: none;
-    color: white;
+    color: rgb(196, 243, 8);
 }
 
 .wrap-milogo {
