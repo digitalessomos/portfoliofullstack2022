@@ -33,10 +33,11 @@
   
   ul li {
       padding: 4px 4px;
-      font-size: 14px;
-      line-height: 16px;
+      font-size: 22px;
+      line-height: 22px;
       width: 60%;
       margin-left: auto;
+      font-family: 'Abel', sans-serif;
   }
   
   ul li:nth-child(2n) {
@@ -142,5 +143,6 @@
       /*-----*/
       ul li {
           width: 100%;
+          font-size: 16px;
       }
   }

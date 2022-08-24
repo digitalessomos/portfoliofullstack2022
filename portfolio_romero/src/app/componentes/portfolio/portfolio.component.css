@@ -1,4 +1,7 @@
-.container {}
+.wrap-portfolio {
+    width: 90%;
+    margin: auto;
+}
 
 .gotopbtn {
     position: fixed;
@@ -53,4 +56,10 @@ footer p {
 
 .p1-footer {
     padding-top: 14px;
+}
+
+@media (max-width:920px) {
+    .wrap-portfolio {
+        width: 100%;
+    }
 }

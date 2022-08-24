@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&family=Montserrat+Alternates:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 #card-experiencia {
     border: none;
     width: 70%;
@@ -72,18 +73,6 @@
 
 p a:hover {
     color: tomato;
-}
-
-
-/*------------------------*/
-
-.p-descripcion {
-    line-height: 20px;
-    font-size: 18px;
-    font-family: sans-serif;
-    text-align: justify;
-    margin: 10px auto 10px auto;
-    padding: 5px 8px;
 }
 
 
@@ -191,6 +180,8 @@ p a:hover {
 
 #escondido {
     padding-top: 6px;
+    font-family: 'Abel', sans-serif;
+    font-size: 22px;
 }
 
 @media (max-width:920px) {
@@ -227,5 +218,9 @@ p a:hover {
     #title {
         font-size: 26px;
         line-height: 28px;
+    }
+    /*----*/
+    #escondido {
+        font-size: 16px;
     }
 }
