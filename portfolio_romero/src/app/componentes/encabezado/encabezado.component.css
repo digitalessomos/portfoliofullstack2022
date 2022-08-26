@@ -531,7 +531,7 @@ ul li:hover {
 @media (max-width:930px) {
     #first-card {
         height: 85vh;
-        margin: 0 auto 1px auto;
+        margin: 0;
     }
     .wrap-infomia {
         color: white;

@@ -29,20 +29,22 @@
       margin: 0 0 0 0;
       padding: 0 0 0 0;
       display: inline;
+      width: 65%;
+      margin-left: auto;
   }
   
   ul li {
-      padding: 4px 4px;
+      padding: 10px 14px;
       font-size: 22px;
       line-height: 22px;
-      width: 60%;
+      width: 65%;
       margin-left: auto;
       font-family: 'Abel', sans-serif;
   }
   
   ul li:nth-child(2n) {
-      background-color: rgb(229, 229, 248);
-      color: black;
+      background-color: grey;
+      color: white;
   }
   /*-----Botones para manipular------*/
   
@@ -65,15 +67,16 @@
   }
   
   #titulo-soft h1 {
-      background-color: goldenrod;
+      background-color: rgb(183, 134, 9);
   }
   
   #titulo-front h1,
   #titulo-back h1,
   #titulo-soft h1 {
-      padding: 0 10px;
-      display: inline;
+      padding: 4px 10px;
       text-align: center;
+      width: 350px;
+      margin: 0 auto;
   }
   
   #titulo-front,
@@ -144,5 +147,9 @@
       ul li {
           width: 100%;
           font-size: 16px;
+          padding: 8px 14px;
+      }
+      .wrap-li {
+          margin: 0px 20px;
       }
   }

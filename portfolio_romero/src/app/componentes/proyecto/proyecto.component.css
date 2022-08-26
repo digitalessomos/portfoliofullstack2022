@@ -15,19 +15,6 @@
 
 /*------------------*/
 
-.parte2 {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.parte2 img {
-    height: 170px;
-    width: 60%;
-    border: 1px solid blue;
-    border-radius: 10px;
-    margin: auto;
-}
-
 .parte3 {
     text-align: center;
 }
@@ -94,49 +81,50 @@ p a:hover {
     display: flex;
     flex-direction: column;
     color: white;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    margin: 5px auto 0 auto;
 }
 
-.wrap-li-proy li {
+.wrap-li-proy div {
     padding: 2px 0px 0px 5px;
-    width: 70%;
+    width: 100%;
 }
 
 .wrap-li-proy h2 {
-    line-height: 35px;
+    line-height: 25px;
+    font-size: 12px;
     display: inline;
 }
 
 .wrap-li-proy p {
     line-height: 15px;
+    font-size: 20px;
 }
 
-.wrap-li-proy li:nth-child(1) {
+.wrap-li-proy div:nth-child(1) {
     background-color: rgb(250, 137, 137);
 }
 
-.wrap-li-proy li:nth-child(2) {
+.wrap-li-proy div:nth-child(2) {
     background-color: rgb(175, 175, 250);
 }
 
-.wrap-li-proy li:nth-child(3) {
+.wrap-li-proy div:nth-child(3) {
     background-color: rgb(165, 252, 165);
 }
 
-.wrap-li-proy li:nth-child(1):hover {
+.wrap-li-proy div:nth-child(1):hover {
     background-color: rgb(250, 32, 32);
     transition: 1s;
 }
 
-.wrap-li-proy li:nth-child(2):hover {
+.wrap-li-proy div:nth-child(2):hover {
     background-color: rgb(47, 47, 255);
     transition: 1s;
 }
 
-.wrap-li-proy li:nth-child(3):hover {
+.wrap-li-proy div:nth-child(3):hover {
     background-color: rgb(30, 180, 30);
     transition: 1s;
 }
@@ -144,7 +132,8 @@ p a:hover {
 
 /*---------------*/
 
-.data-container {
+.data-container,
+.data-container2 {
     display: grid;
     grid-template-columns: 35% 65%;
 }
@@ -179,7 +168,7 @@ p a:hover {
 /*---*/
 
 #escondido {
-    padding-top: 6px;
+    padding: 10px 10px;
     font-family: 'Abel', sans-serif;
     font-size: 22px;
 }
@@ -205,11 +194,8 @@ p a:hover {
         margin: 10px auto 10px auto;
     }
     /*------*/
-    .wrap-li-proy li {
-        width: 90%;
-    }
-    .wrap-li-proy {
-        left: 50%;
+    .wrap-li-proy div {
+        width: 100%;
     }
     .wrap-edu-grid {
         grid-template-columns: 1fr;
@@ -222,5 +208,8 @@ p a:hover {
     /*----*/
     #escondido {
         font-size: 16px;
+        width: 100%;
+        padding: 10px 0px;
     }
+    /*----*/
 }

@@ -80,7 +80,25 @@
 
     </div>
 
-    <div [hidden]="proyecto.hide" id="escondido">
-        <p>{{proyecto.descripcion}} </p>
+    <div class="data-container2" [hidden]="proyecto.hide">
+
+        <div class="wrap-li-proy">
+            <div>
+                <h2>Frontend</h2>
+                <p>{{proyecto.frontend}}</p>
+            </div>
+            <div>
+                <h2>Backend</h2>
+                <p>{{proyecto.backend}}</p>
+            </div>
+            <div>
+                <h2>Base de datos</h2>
+                <p>{{proyecto.bd}}</p>
+            </div>
+        </div>
+
+        <div id="escondido">
+            <p>{{proyecto.descripcion}} </p>
+        </div>
     </div>
 </div>
