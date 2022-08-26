@@ -43,10 +43,10 @@ ul li {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 5rem;
+    height: 6rem;
     max-width: 100%;
     position: relative;
-    margin: 3rem 0 0 0;
+    margin: 5rem 0 0 0;
 }
 
 .texto-interior {
@@ -67,7 +67,7 @@ ul li {
 .wrap-img {
     position: relative;
     right: 10%;
-    height: 180px;
+    height: 250px;
 }
 
 .wrap-img img {
