@@ -6,19 +6,6 @@
 
 /*--------------*/
 
-.gallery-image {
-    margin: auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-}
-
-.gallery-image img {
-    width: 100%;
-    transform: scale(1.0);
-    transition: transform 0.4s ease;
-}
-
 .img-box {
     box-sizing: content-box;
     margin: 0;
@@ -92,11 +79,5 @@
     #card-educacion {
         margin: 0;
         width: 100%;
-    }
-    .gallery-image {
-        margin: 10px 0 30px 0;
-        width: 100%;
-        display: grid;
-        grid-template-columns: 50% 50%;
     }
 }

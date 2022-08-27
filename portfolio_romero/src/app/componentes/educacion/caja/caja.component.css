@@ -1,7 +1,7 @@
 .data-container {
     display: grid;
     grid-template-columns: 35% 65%;
-    margin-bottom: 20px;
+    border-top: 15px solid white;
 }
 
 .wrap-data {
@@ -10,6 +10,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom: solid rgb(11, 2, 66) 15px;
+    border-top: solid rgb(11, 2, 66) 15px;
+    border-right: solid rgb(11, 2, 66) 15px;
 }
 
 .logo-image-container {
@@ -40,9 +43,8 @@
 
 #title {
     font-size: 36px;
-    line-height: 38px;
+    line-height: 36px;
     font-family: 'Courier New', Courier, monospace;
-    letter-spacing: -1px;
     font-weight: 600;
     text-align: center;
 }
@@ -64,11 +66,14 @@
 
 .gallery-image img {
     height: 100%;
-    max-height: 200px;
+    max-height: 310px;
     width: 100%;
     transform: scale(1.0);
     transition: transform 0.4s ease;
-    border: solid rgb(11, 2, 66) 5px;
+    border-left: solid rgb(11, 2, 66) 15px;
+    border-top: solid rgb(11, 2, 66) 15px;
+    border-bottom: solid rgb(11, 2, 66) 15px;
+    border-right: solid rgb(11, 2, 66) 15px;
 }
 
 .img-box {
