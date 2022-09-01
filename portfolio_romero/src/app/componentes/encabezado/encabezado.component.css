@@ -68,7 +68,7 @@
 .wrapLogos p {
     font-size: 26px;
     font-family: 'Courier New', Courier, monospace;
-    margin-left: 10px;
+    margin-right: 50px;
     padding-left: 2px;
 }
 
@@ -596,9 +596,11 @@ ul li:hover {
     }
     .wrapLogos p {
         font-size: 13px;
-        margin-left: 4px;
+        margin-left: 5px;
+        margin-right: 0px;
+        text-transform: uppercase;
     }
     .wrapLogos {
-        margin-left: 3px;
+        margin-left: 0px;
     }
 }

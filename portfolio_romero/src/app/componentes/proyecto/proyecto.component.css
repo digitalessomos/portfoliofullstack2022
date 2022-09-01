@@ -1,232 +1,215 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&family=Montserrat+Alternates:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-#card-experiencia {
-    border: none;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.wrap-edu-grid {
-    display: grid !important;
-    grid-template-columns: 60% 40%;
-    margin-bottom: 15px;
-}
-
-
-/*------------------*/
-
-.parte3 {
-    text-align: center;
-}
-
-.parte3 img {
-    height: 170px;
-    width: 70%;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: auto;
-}
-
-.tiriras {
-    display: flex;
-    justify-content: space-around;
-}
-
-.tiriras div {
-    width: 22px;
-    background-color: black;
-    height: 30px;
-}
-
-
-/*---------------*/
-
-.wrap-links {
-    text-align: center;
-    margin-top: 2px;
-}
-
-.link-proyecto a {
-    text-decoration: none;
-    font-style: italic;
-    color: white;
-}
-
-.link-proyecto {
-    padding: 2px 5px;
-    background-color: black;
-    display: inline;
-}
-
-p a:hover {
-    color: tomato;
-}
-
-
-/*-------------*/
-
-.one {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 26px;
-    line-height: 24px;
-    padding: 10px;
-    margin: 0 0 0 0;
-    background-color: black;
-    color: white;
-}
-
-.wrap-li-proy {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    text-align: center;
-    width: 90%;
-    margin: 5px auto 0 auto;
-}
-
-.wrap-li-proy div {
-    padding: 2px 0px 0px 5px;
-    width: 100%;
-}
-
-.wrap-li-proy h2 {
-    line-height: 25px;
-    font-size: 12px;
-    display: inline;
-}
-
-.wrap-li-proy p {
-    line-height: 15px;
-    font-size: 20px;
-}
-
-.wrap-li-proy div:nth-child(1) {
-    background-color: rgb(250, 137, 137);
-}
-
-.wrap-li-proy div:nth-child(2) {
-    background-color: rgb(175, 175, 250);
-}
-
-.wrap-li-proy div:nth-child(3) {
-    background-color: rgb(165, 252, 165);
-}
-
-.wrap-li-proy div:nth-child(1):hover {
-    background-color: rgb(250, 32, 32);
-    transition: 1s;
-}
-
-.wrap-li-proy div:nth-child(2):hover {
-    background-color: rgb(47, 47, 255);
-    transition: 1s;
-}
-
-.wrap-li-proy div:nth-child(3):hover {
-    background-color: rgb(30, 180, 30);
-    transition: 1s;
-}
-
-
-/*---------------*/
-
-.data-container,
-.data-container2 {
-    display: grid;
-    grid-template-columns: 35% 65%;
-}
-
-.data-container {
-    border-top: 15px solid white;
-}
-
-.data-container2 {
-    background-color: rgb(11, 2, 66);
-    border-bottom: solid rgb(11, 2, 66) 15px;
-    color: white;
-    margin-bottom: 20px;
-}
-
-.image-container-proyecto {
-    display: grid;
-    border-left: solid rgb(11, 2, 66) 15px;
-    border-top: solid rgb(11, 2, 66) 15px;
-    border-bottom: solid rgb(11, 2, 66) 15px;
-    border-right: solid rgb(11, 2, 66) 15px;
-}
-
-.logo-image {
-    width: 100%;
-    height: 100%;
-    max-height: 250px;
-}
-
-.wrap-data {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-top: solid rgb(11, 2, 66) 15px;
-    border-bottom: solid rgb(11, 2, 66) 15px;
-    border-right: solid rgb(11, 2, 66) 15px;
-}
-
-#title {
-    font-size: 36px;
-    line-height: 38px;
-    letter-spacing: -1px;
-    font-weight: 600;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-
-
-/*---*/
-
-#escondido {
-    padding: 10px 10px;
-    font-family: 'Abel', sans-serif;
-    font-size: 22px;
-}
-
-@media (max-width:920px) {
+    @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&family=Montserrat+Alternates:wght@300;400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
     #card-experiencia {
-        width: 100%;
+        border: none;
+        width: 70%;
+        margin: 0 auto;
     }
-    .parte1 {
-        margin: 0;
-        border-right: none;
-    }
-    /*----------*/
-    .one {
-        margin: 0 0 0 0;
-    }
-    .wrap-links {
-        margin-top: 0px;
-    }
-    .p-descripcion {
-        line-height: 18px;
-        font-size: 16px;
-        margin: 10px auto 10px auto;
-    }
-    /*------*/
-    .wrap-li-proy div {
-        width: 100%;
-    }
+    
     .wrap-edu-grid {
-        grid-template-columns: 1fr;
+        display: grid !important;
+        grid-template-columns: 60% 40%;
+        margin-bottom: 15px;
     }
-    /*----*/
-    #title {
+    /*------------------*/
+    
+    .parte3 {
+        text-align: center;
+    }
+    
+    .parte3 img {
+        height: 170px;
+        width: 70%;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: auto;
+    }
+    
+    .tiriras {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .tiriras div {
+        width: 22px;
+        background-color: black;
+        height: 30px;
+    }
+    /*---------------*/
+    
+    .wrap-links {
+        text-align: center;
+        margin-top: 2px;
+    }
+    
+    .link-proyecto a {
+        text-decoration: none;
+        font-style: italic;
+        color: white;
+    }
+    
+    .link-proyecto {
+        padding: 2px 5px;
+        background-color: black;
+        display: inline;
+    }
+    
+    p a:hover {
+        color: tomato;
+    }
+    /*-------------*/
+    
+    .one {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
         font-size: 26px;
-        line-height: 28px;
+        line-height: 24px;
+        padding: 10px;
+        margin: 0 0 0 0;
+        background-color: black;
+        color: white;
     }
-    /*----*/
-    #escondido {
-        font-size: 16px;
+    
+    .wrap-li-proy {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        width: 90%;
+        margin: 5px auto 0 auto;
+    }
+    
+    .wrap-li-proy div {
+        padding: 2px 0px 0px 5px;
         width: 100%;
     }
-    /*----*/
-}
+    
+    .wrap-li-proy h2 {
+        line-height: 25px;
+        font-size: 12px;
+        display: inline;
+    }
+    
+    .wrap-li-proy p {
+        line-height: 15px;
+        font-size: 20px;
+    }
+    
+    .wrap-li-proy div:nth-child(1) {
+        background-color: rgb(250, 137, 137);
+    }
+    
+    .wrap-li-proy div:nth-child(2) {
+        background-color: rgb(175, 175, 250);
+    }
+    
+    .wrap-li-proy div:nth-child(3) {
+        background-color: rgb(165, 252, 165);
+    }
+    
+    .wrap-li-proy div:nth-child(1):hover {
+        background-color: rgb(250, 32, 32);
+        transition: 1s;
+    }
+    
+    .wrap-li-proy div:nth-child(2):hover {
+        background-color: rgb(47, 47, 255);
+        transition: 1s;
+    }
+    
+    .wrap-li-proy div:nth-child(3):hover {
+        background-color: rgb(30, 180, 30);
+        transition: 1s;
+    }
+    /*---------------*/
+    
+    .data-container2 {
+        display: grid;
+        grid-template-columns: 35% 65%;
+    }
+    
+    .data-container2 {
+        background-color: rgb(11, 2, 66);
+        border-bottom: solid rgb(11, 2, 66) 15px;
+        color: white;
+        margin-bottom: 20px;
+    }
+    
+    .image-container-proyecto {
+        display: grid;
+        border-left: solid rgb(11, 2, 66) 5px;
+        border-top: solid rgb(11, 2, 66) 5px;
+        border-bottom: solid rgb(11, 2, 66) 5px;
+        border-right: solid rgb(11, 2, 66) 5px;
+    }
+    
+    .logo-image {
+        width: 100%;
+        height: 250px;
+        max-height: 250px;
+    }
+    
+    #title {
+        font-size: 36px;
+        line-height: 38px;
+        letter-spacing: -1px;
+        font-weight: 600;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    }
+    /*---*/
+    
+    #escondido {
+        padding: 10px 10px;
+        font-family: 'Abel', sans-serif;
+        font-size: 22px;
+    }
+    
+    @media (max-width:920px) {
+        #card-experiencia {
+            width: 100%;
+        }
+        .parte1 {
+            margin: 0;
+            border-right: none;
+        }
+        /*----------*/
+        .one {
+            margin: 0 0 0 0;
+        }
+        .wrap-links {
+            margin-top: 0px;
+        }
+        .p-descripcion {
+            line-height: 18px;
+            font-size: 16px;
+            margin: 10px auto 10px auto;
+        }
+        /*------*/
+        .wrap-li-proy div {
+            width: 100%;
+        }
+        .wrap-edu-grid {
+            grid-template-columns: 1fr;
+        }
+        /*----*/
+        #title {
+            font-size: 26px;
+            line-height: 28px;
+        }
+        /*----*/
+        #escondido {
+            font-size: 16px;
+            width: 100%;
+        }
+        /*----*/
+        .wrap-li-proy p {
+            line-height: 17px;
+            font-size: 15px;
+        }
+        /*-----*/
+        .logo-image {
+            height: 200px;
+        }
+    }

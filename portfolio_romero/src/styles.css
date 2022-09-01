@@ -16,6 +16,15 @@ ul li {
 
 /*-------------------------*/
 
+.data-container {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin-top: 20px;
+}
+
+
+/*-------------------------*/
+
 .card-titles {
     display: flex;
     justify-content: right;
@@ -99,7 +108,23 @@ ul li {
 
 /*-----------------*/
 
+.wrap-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: solid rgb(11, 2, 66) 1px;
+    border-bottom: solid rgb(11, 2, 66) 1px;
+    border-right: solid rgb(11, 2, 66) 1px;
+}
+
 @media (max-width:820px) {
+    .data-container {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        margin-top: 20px;
+    }
+    /*----------------*/
     .special-img {
         width: 60px;
         height: 50px;
@@ -115,14 +140,14 @@ ul li {
     }
     .wrap-img {
         right: 0;
-        height: 150px;
+        height: 200px;
     }
     .wrap-img img {
         margin: 0;
         border: none;
-        border-left: 9px solid rgb(11, 2, 66);
-        border-right: 9px solid rgb(11, 2, 66);
-        border-bottom: 9px solid rgb(11, 2, 66);
+        border-left: 5px solid rgb(11, 2, 66);
+        border-right: 5px solid rgb(11, 2, 66);
+        border-bottom: 5px solid rgb(11, 2, 66);
     }
     .wrap-titulo {
         padding: 40px 0px 20px 0px;
