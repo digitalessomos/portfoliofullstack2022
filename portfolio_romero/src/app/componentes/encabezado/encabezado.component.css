@@ -567,8 +567,8 @@ ul li:hover {
         font-size: 41px;
         height: 41px;
         top: 15%;
-        left: 1%;
-        transform: translate(-1%, -1%);
+        left: 50%;
+        transform: translate(-50%, -1%);
     }
     .line a {
         font-size: 40px;
@@ -576,7 +576,6 @@ ul li:hover {
     }
     .wrap-animated {
         top: 40%;
-        left: 57%;
     }
     .animated-text {
         height: 50px;
