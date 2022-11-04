@@ -190,26 +190,15 @@
 
 #info-img img {
     border-radius: 50%;
-    width: 152px;
-    height: 152px;
-    margin-top: -85px;
+    width: 282px;
+    height: 272px;
+    margin-top: -165px;
     margin-left: 20px;
 }
 
 .wrap-infomia {
     color: white;
     margin-left: 30px;
-}
-
-.nombre-completo {
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: 60px;
-    height: 55px;
-    color: white;
-    text-shadow: 1px 1px 1px blue, -1px -1px 1px blue;
 }
 
 .info-profesion {
@@ -314,16 +303,30 @@
 
 /*--------Text animation-----------*/
 
+.nombre-completo {
+    position: absolute;
+    z-index: 111;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 100px;
+    height: 75px;
+    color: white;
+    text-shadow: 1px 1px 1px blue, -1px -1px 1px blue;
+    top: 20%;
+    left: 25%;
+    transform: translate(-10%, -50%);
+}
+
 .animated-text {
-    padding: 0 40px;
-    height: 90px;
+    height: 50px;
     overflow: hidden;
 }
 
 .wrap-animated {
     position: absolute;
     z-index: 111;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -332,8 +335,8 @@
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    font-size: 90px;
-    line-height: 90px;
+    font-size: 50px;
+    line-height: 50px;
     color: rgb(196, 243, 8);
     text-shadow: 1px 1px 1px blue, -1px -1px 1px blue;
     font-family: 'Montserrat Subrayada', sans-serif;
@@ -348,19 +351,19 @@
         margin-top: 0;
     }
     16% {
-        margin-top: -90px;
+        margin-top: -50px;
     }
     33% {
-        margin-top: -180px;
+        margin-top: -100px;
     }
     50% {
-        margin-top: -270px;
+        margin-top: -150px;
     }
     66% {
-        margin-top: -180px;
+        margin-top: -100px;
     }
     82% {
-        margin-top: -90px;
+        margin-top: -50px;
     }
     100% {
         margin-top: 0;
@@ -537,10 +540,6 @@ ul li:hover {
         color: white;
         margin-left: 10px;
     }
-    .nombre-completo {
-        font-size: 32px;
-        height: 25px;
-    }
     .info-profesion {
         font-size: 30px;
         line-height: 28px;
@@ -564,16 +563,23 @@ ul li:hover {
         padding-right: 10px;
     }
     /*---------*/
+    .nombre-completo {
+        font-size: 43px;
+        height: 43px;
+        top: 15%;
+        left: 5%;
+        transform: translate(-1%, -1%);
+    }
     .line a {
-        font-size: 45px;
+        font-size: 40px;
         line-height: 60px;
     }
     .wrap-animated {
-        top: 10%;
+        top: 30%;
         left: 57%;
     }
     .animated-text {
-        height: 60px;
+        height: 50px;
     }
     .line:first-child {
         animation: anim2 12s infinite;
@@ -602,5 +608,13 @@ ul li:hover {
     }
     .wrapLogos {
         margin-left: 0px;
+    }
+    /*--------*/
+    #info-img img {
+        border-radius: 50%;
+        width: 212px;
+        height: 212px;
+        margin-top: -125px;
+        margin-left: 20px;
     }
 }

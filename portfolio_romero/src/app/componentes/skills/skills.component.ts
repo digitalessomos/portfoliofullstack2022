@@ -55,10 +55,10 @@ export class skillsComponent implements OnInit {
 skillBack: any=[  
 {
   "habilidad":"Server layer",
-  "img":"../assets/node2.png",
+  "img":"../assets/sl1.webp",
   "responsabilidades":
   [
-  "Al menos 4 años de experiencia laboral comprobable en desarrollo web JS",
+  "Al menos 4 años de experiencia escribiendo código backend en lenguajes Nodejs, Java, PHP",
   "Al menos 3 años de servicios web/API REST experiencia personal comprobable en la integración de aplicaciones", 
     /*
   "At least 3 years of Web Services / REST APIs verifiable work experience integrating applications", 
@@ -73,14 +73,34 @@ skillBack: any=[
 "hide":true
 },
 {
+  "habilidad":"Databases",
+  "img":"../assets/db2.jpg",
+  "responsabilidades":
+  [
+  "Extensa experiencia en el desarrollo, implementación y mantenimiento de aplicaciones usando MongoDB, MySQl y firebase DB",
+  "Fuerte comprensión del diseño y optimización de bases de datos relacionales y no relacionales.", 
+  "Excelentes habilidades de consulta SQL y NoSQL.",
+  "Operaciones de creación, lectura, actualización y eliminación (CRUD)", 
+  "Diseño y cracion bases de datos y sus interfaces frontales para uso interno y externo,",
+  "Experiencia comprobada con operadores SQL, filtrado de datos.", 
+  "Diseñar un esquema de base de datos."
+],
+"hide":true
+},
+{
   "habilidad":"Hoisting",
   "img":"../assets/git2.png",
   "responsabilidades":
   [
-  "Conocimiento de herramientas de control de versiones como GIT." 
+  "Conocimiento de herramientas de control de versiones como GIT.",
+  "Más de 6 años de experiencia creando repositorios",
+  "Extensa experiencia configurando ramas, commits, merge y pull requests.",
+  "Extensa experiencia con GitHub Pages alojando proyectos convirtiendolos en sitios web.",
+  "Más de 20 sitios desplegados continuamente con Netlify (Github Pages con super-poderes)",
+  "Más de 5 años usando web service: Heroku, netlify y Firebase"
 ],
 "hide":true
-} 
+}
 ]
 
 skillSoft: any=[
