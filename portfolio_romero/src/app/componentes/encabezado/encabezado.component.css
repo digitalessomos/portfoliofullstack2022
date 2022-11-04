@@ -557,17 +557,17 @@ ul li:hover {
     }
     .img-wrapper h2 {
         text-align: right;
-        font-size: 20px;
+        font-size: 18px;
     }
     .img-wrapper h2 span {
         padding-right: 10px;
     }
     /*---------*/
     .nombre-completo {
-        font-size: 43px;
-        height: 43px;
+        font-size: 41px;
+        height: 41px;
         top: 15%;
-        left: 5%;
+        left: 1%;
         transform: translate(-1%, -1%);
     }
     .line a {
@@ -575,7 +575,7 @@ ul li:hover {
         line-height: 60px;
     }
     .wrap-animated {
-        top: 30%;
+        top: 40%;
         left: 57%;
     }
     .animated-text {
@@ -615,6 +615,6 @@ ul li:hover {
         width: 212px;
         height: 212px;
         margin-top: -125px;
-        margin-left: 20px;
+        margin-left: 16px;
     }
 }
