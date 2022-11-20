@@ -10,7 +10,7 @@ export class ProyectoComponent implements OnInit {
   proyectoList: any=[
     {
       "nombre":"Proyecto de tienda virtual",
-      "link":"https://mitiendavirtual10.netlify.app/home",
+      "link":"https://mibarrio247.netlify.app",
       "img":"./assets/proyectos/4442.png",
       "fecha":"2021",
       "descripcion":"Los consumidores digitales pueden recibir sus compras en la puerta de su casa, entregas a tiempo y una logística eficiente para atraer mas consumidores.",
@@ -32,7 +32,7 @@ export class ProyectoComponent implements OnInit {
 },
 {
   "nombre":"Practica de gestión simultanea de comercios digitales",
-  "link":"https://app.netlify.com/sites/mibarrio247",
+  "link":"https://mitiendavirtual10.netlify.app",
   "img":"../../../assets/proyectos/22.png",
   "fecha":"2020",
   "descripcion":"Implementación de un Sistema de Gestión de Pedidos para centralizar toda la información que circula por los distintos canales, el cual permite, además, hacer mejor uso de los recursos disponibles.",

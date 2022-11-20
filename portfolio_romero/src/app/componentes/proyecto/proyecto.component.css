@@ -39,7 +39,7 @@
     
     .wrap-links {
         text-align: center;
-        margin-top: 2px;
+        margin-top: 0px;
     }
     
     .link-proyecto a {
@@ -49,9 +49,11 @@
     }
     
     .link-proyecto {
-        padding: 2px 5px;
-        background-color: black;
+        padding: 4px 8px;
+        background-color: rgb(164, 7, 7);
         display: inline;
+        border-radius: 20px;
+        font-size: 14px;
     }
     
     p a:hover {
