@@ -26,9 +26,8 @@
   }
   
   .wrap-li {
-      width: 65%;
-      margin-left: auto;
       margin-bottom: 10px;
+      border: 2px solid grey;
   }
   
   ul {
