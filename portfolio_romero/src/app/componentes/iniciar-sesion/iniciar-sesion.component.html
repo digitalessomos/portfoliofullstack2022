@@ -1,25 +1,21 @@
- <div class="wrap">
+<div class="wrap">
 
-  <div id="MainLogin">
-	<div class="TopLogin">
-			<p> Log In </p>
-	</div>
+    <div id="MainLogin">
+        <div class="TopLogin">
+            <p> Log In </p>
+        </div>
 
-	<div class="OuterLogin">
-         <form [formGroup]= "form">
+        <div class="OuterLogin">
+            <form [formGroup]="form">
                 <label for="userName"> Usuario </label>
-                <input  type="text" id="userId" name="userId" formControlName="userId" placeholder="lucas"
-                        required
-                        minlength="4"
-                        maxlength="20">
+                <input type="text" id="userId" name="userId" formControlName="userId" placeholder="admin" required minlength="4" maxlength="20">
 
                 <label for="passWord"> Password </label>
-                <input type="password" id="password" name="password" formControlName="password" placeholder="alario">
+                <input type="password" id="password" name="password" formControlName="password" placeholder="admin">
 
                 <button (click)="userLogin(form.value)" [disabled]="form.invalid">Entrar</button>
-         </form>
+            </form>
 
-	</div>
-  </div>
- </div>
- 
+        </div>
+    </div>
+</div>

@@ -11,7 +11,7 @@ import { HttpClient } from '@angular/common/http';
 export class IniciarSesionComponent implements OnInit {
 public form!:FormGroup;
 users:any= [
-  { "userId":"lucas", "password":"alario", "id":1 }, 
+  { "userId":"admin", "password":"admin", "id":1 }, 
   { "userId":"cristian", "password":"romero", "id":2 }
 ];
    constructor( private formBuilder: FormBuilder,

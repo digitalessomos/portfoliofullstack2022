@@ -197,26 +197,24 @@
 }
 
 .wrap-infomia {
-    color: white;
+    display: grid;
     margin-left: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    grid-template-rows: 45px 22px 16px;
+    color: white;
 }
 
 .info-profesion {
     font-size: 45px;
-    line-height: 42px;
-    display: inline;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .info-origen {
     font-style: italic;
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    text-shadow: 1px 1px 1px black, -1px -1px 1px black;
-    font-size: 12px;
-    height: 10px;
-    display: inline;
+    font-size: 22px;
+}
+
+.info-contacto {
+    font-size: 16px;
 }
 
 #info-actions {
@@ -310,7 +308,7 @@
     font-weight: 600;
     font-family: 'Montserrat Subrayada', sans-serif;
     font-size: 100px;
-    height: 75px;
+    line-height: 100px;
     color: white;
     text-shadow: 1px 1px 1px blue, -1px -1px 1px blue;
     top: 20%;
@@ -539,14 +537,17 @@ ul li:hover {
     .wrap-infomia {
         color: white;
         margin-left: 10px;
+        grid-template-rows: 30px 12px 10px;
     }
     .info-profesion {
         font-size: 30px;
-        line-height: 28px;
         font-family: 'Courier New', Courier, monospace;
     }
     .info-origen {
         text-shadow: none;
+    }
+    .info-contacto {
+        font-size: 10px;
     }
     #info-actions button {
         font-size: 12px;
@@ -565,7 +566,7 @@ ul li:hover {
     /*---------*/
     .nombre-completo {
         font-size: 65px;
-        height: 65px;
+        line-height: 65px;
         top: 15%;
         left: 50%;
         transform: translate(-50%, -1%);
