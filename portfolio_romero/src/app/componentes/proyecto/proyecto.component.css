@@ -13,6 +13,11 @@
     }
     /*------------------*/
     
+    .p-desc-pro {
+        text-align: justify;
+    }
+    /*-------------------*/
+    
     .parte3 {
         text-align: center;
     }
@@ -46,18 +51,21 @@
         text-decoration: none;
         font-style: italic;
         color: white;
+        background-color: rgb(164, 7, 7);
+        padding: 4px 8px;
+        border-radius: 20px;
+        font-size: 14px;
+        transition: 0.6s;
     }
     
     .link-proyecto {
-        padding: 4px 8px;
-        background-color: rgb(164, 7, 7);
         display: inline;
-        border-radius: 20px;
-        font-size: 14px;
     }
     
     p a:hover {
-        color: tomato;
+        color: white;
+        font-size: 16px;
+        background-color: blue;
     }
     /*-------------*/
     
@@ -78,8 +86,8 @@
         flex-direction: column;
         color: white;
         text-align: center;
-        width: 90%;
-        margin: 5px auto 0 auto;
+        margin: 0;
+        border-right: solid rgb(11, 2, 66) 1px;
     }
     
     .wrap-li-proy div {
@@ -128,22 +136,14 @@
     
     .data-container2 {
         display: grid;
-        grid-template-columns: 35% 65%;
-    }
-    
-    .data-container2 {
-        background-color: rgb(11, 2, 66);
-        border-bottom: solid rgb(11, 2, 66) 15px;
-        color: white;
-        margin-bottom: 20px;
+        grid-template-columns: 25% 75%;
+        border: 2px solid rgb(11, 2, 66);
+        color: black;
     }
     
     .image-container-proyecto {
         display: grid;
-        border-left: solid rgb(11, 2, 66) 5px;
-        border-top: solid rgb(11, 2, 66) 5px;
-        border-bottom: solid rgb(11, 2, 66) 5px;
-        border-right: solid rgb(11, 2, 66) 5px;
+        border: solid rgb(11, 2, 66) 2px;
     }
     
     .logo-image {
@@ -176,6 +176,10 @@
             margin: 0;
             border-right: none;
         }
+        /*----*/
+        .data-container2 {
+            grid-template-columns: 35% 65%;
+        }
         /*----------*/
         .one {
             margin: 0 0 0 0;
@@ -206,6 +210,9 @@
             width: 100%;
         }
         /*----*/
+        .wrap-li-proy {
+            width: 100%;
+        }
         .wrap-li-proy p {
             line-height: 17px;
             font-size: 15px;

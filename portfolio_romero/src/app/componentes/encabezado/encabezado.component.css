@@ -537,7 +537,7 @@ ul li:hover {
     .wrap-infomia {
         color: white;
         margin-left: 10px;
-        grid-template-rows: 30px 12px 10px;
+        grid-template-rows: 30px 15px 10px;
     }
     .info-profesion {
         font-size: 30px;
@@ -545,6 +545,7 @@ ul li:hover {
     }
     .info-origen {
         text-shadow: none;
+        font-size: 15px;
     }
     .info-contacto {
         font-size: 10px;
@@ -565,11 +566,11 @@ ul li:hover {
     }
     /*---------*/
     .nombre-completo {
-        font-size: 65px;
-        line-height: 65px;
+        font-size: 62px;
+        line-height: 62px;
         top: 15%;
-        left: 50%;
-        transform: translate(-50%, -1%);
+        left: 53%;
+        transform: translate(-53%, -1%);
     }
     .line a {
         font-size: 40px;

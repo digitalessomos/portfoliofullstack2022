@@ -57,7 +57,7 @@ export class ProyectoComponent implements OnInit {
   "link":"https://comprorapido.netlify.app/",
   "img":"./assets/proyectos/5555.png",
   "fecha":"2020",
-  "descripcion":"herramienta digital adaptada a las necesidades del negocio. Sistema personalizado en base a una visión integral  del negocio, con el foco puesto en las personas y en sintonía con las últimas tendencias tecnológicas y culturales",
+  "descripcion":"Herramienta digital adaptada a las necesidades del negocio. Sistema personalizado en base a una visión integral  del negocio, con el foco puesto en las personas y en sintonía con las últimas tendencias tecnológicas y culturales",
   "frontend":"HTML CSS JS: InnerHTML,  sort, JSON Array",
   "backend":"Firebase-firestore (contact & login validating)",
   "bd":"Firebase collections",
