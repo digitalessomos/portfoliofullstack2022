@@ -556,6 +556,9 @@ ul li:hover {
     }
     #info-actions button {
         font-size: 12px;
+        margin-right: 12px;
+        position: relative;
+        bottom: 0px;
     }
     /*----------------*/
     .img-wrapper:hover h2 {
