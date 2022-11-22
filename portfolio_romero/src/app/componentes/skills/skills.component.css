@@ -92,8 +92,6 @@
   /*---------------*/
   /*---------------*/
   
-  .image-container4 {}
-  
   .logo-image {
       width: 240px;
       height: 240px;
@@ -146,9 +144,9 @@
           margin: 0;
       }
       .logo-image {
-          width: 170px;
-          height: 170px;
-          margin-left: 35px;
+          width: 150px;
+          height: 150px;
+          margin-left: 15px;
       }
       /*--22-11----*/
       #titulo-front h1,
