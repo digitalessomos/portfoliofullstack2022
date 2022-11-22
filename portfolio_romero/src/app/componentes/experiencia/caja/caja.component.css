@@ -31,8 +31,8 @@
  }
  
  #puesto {
-     font-size: 36px;
-     line-height: 38px;
+     font-size: 46px;
+     line-height: 48px;
      letter-spacing: -1px;
      font-weight: 600;
      font-family: 'Courier New', Courier, monospace;
@@ -40,10 +40,10 @@
  }
  
  #time {
-     width: 75%;
+     width: 65%;
      margin-left: auto;
      padding: 10px 10px;
-     border: 2px solid rgb(11, 2, 66);
+     border: 1px solid rgb(11, 2, 66);
      color: black;
  }
  

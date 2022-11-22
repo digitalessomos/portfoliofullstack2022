@@ -136,7 +136,7 @@
     
     .data-container2 {
         display: grid;
-        grid-template-columns: 25% 75%;
+        grid-template-columns: 35% 65%;
         border: 2px solid rgb(11, 2, 66);
         color: black;
     }
