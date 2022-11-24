@@ -198,35 +198,31 @@
 
 .wrap-infomia {
     display: grid;
-    margin-left: 30px;
     font-family: 'Courier New', Courier, monospace;
-    grid-template-rows: 45px 22px 16px;
+    grid-template-rows: 65px 42px 36px 14px;
     color: white;
 }
 
 .info-profesion {
     font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: 45px;
+    font-size: 65px;
+    line-height: 65px;
     color: rgb(196, 243, 8);
 }
 
 .info-origen {
     font-style: italic;
-    font-size: 22px;
+    font-size: 42px;
+    line-height: 42px;
 }
 
 .info-contacto {
-    font-size: 16px;
+    font-size: 36px;
+    line-height: 36px;
 }
 
 #info-actions {
-    margin-left: auto;
-}
-
-#info-actions button {
-    margin-right: 12px;
-    position: relative;
-    bottom: 15px;
+    margin-left: 40%;
 }
 
 #info-actions button {
@@ -234,7 +230,7 @@
     background-color: black;
     border: 0.1px solid black;
     border-radius: 6%;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: -1px;
     word-spacing: -4px;
@@ -320,17 +316,17 @@
     transform: translate(-10%, -50%);
 }
 
-.animated-text {
-    height: 50px;
-    overflow: hidden;
-}
-
 .wrap-animated {
     position: absolute;
     z-index: 111;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.animated-text {
+    height: 50px;
+    overflow: hidden;
 }
 
 .line a {
@@ -395,9 +391,6 @@
         margin-top: 0;
     }
 }
-
-
-/*--------------*/
 
 
 /*Modal*/
@@ -533,6 +526,11 @@ ul li:hover {
 
 /*------------------*/
 
+.wrap-infomia-gral {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
 @media (max-width:930px) {
     #first-card {
         height: 85vh;
@@ -541,23 +539,26 @@ ul li:hover {
     .wrap-infomia {
         color: white;
         margin-left: 10px;
-        grid-template-rows: 40px 25px 15px;
+        grid-template-rows: 40px 25px 15px 15px;
+        position: relative;
+        z-index: 1111;
+        margin-left: auto;
     }
     .info-profesion {
         font-size: 40px;
+        line-height: 40px;
     }
     .info-origen {
         text-shadow: none;
         font-size: 25px;
+        line-height: 25px;
     }
     .info-contacto {
         font-size: 15px;
+        line-height: 15px;
     }
     #info-actions button {
         font-size: 12px;
-        margin-right: 12px;
-        position: relative;
-        bottom: 0px;
     }
     /*----------------*/
     .img-wrapper:hover h2 {
@@ -619,8 +620,8 @@ ul li:hover {
     /*--------*/
     #info-img img {
         border-radius: 50%;
-        width: 212px;
-        height: 212px;
+        width: 180px;
+        height: 180px;
         margin-top: -125px;
         margin-left: 16px;
     }
