@@ -167,7 +167,8 @@
 
 .img-wrapper h2 {
     background-color: black;
-    color: rgb(196, 243, 8);
+    color: black;
+    text-shadow: 1px 1px 1px white, -1px -1px 1px white;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Montserrat Subrayada', sans-serif;
@@ -207,7 +208,8 @@
     font-family: 'Montserrat Subrayada', sans-serif;
     font-size: 65px;
     line-height: 65px;
-    color: rgb(196, 243, 8);
+    color: black;
+    text-shadow: 1px 1px 1px white, -1px -1px 1px white;
 }
 
 .info-origen {
@@ -222,7 +224,8 @@
 }
 
 #info-actions {
-    margin-left: 40%;
+    position: relative;
+    top: 120px;
 }
 
 #info-actions button {
@@ -238,7 +241,7 @@
 
 #info-actions button a {
     text-decoration: none;
-    color: rgb(145, 145, 239);
+    color: white;
 }
 
 .img-wrapper:hover h2 {
@@ -301,27 +304,29 @@
 
 /*--------Text animation-----------*/
 
+.wrap-nombre {
+    display: flex;
+    justify-content: center;
+}
+
 .nombre-completo {
     position: absolute;
     z-index: 111;
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Montserrat Subrayada', sans-serif;
-    font-size: 100px;
+    font-size: 90px;
     line-height: 100px;
-    color: rgb(196, 243, 8);
-    text-shadow: 1px 1px 1px blue, -1px -1px 1px blue;
-    top: 20%;
-    left: 25%;
-    transform: translate(-10%, -50%);
+    color: black;
+    text-shadow: 1px 1px 1px white, -1px -1px 1px white;
+    top: 10%;
 }
 
 .wrap-animated {
-    position: absolute;
     z-index: 111;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 100px;
+    left: 40px;
 }
 
 .animated-text {
@@ -335,8 +340,8 @@
     text-align: center;
     font-size: 50px;
     line-height: 50px;
-    color: white;
-    text-shadow: 1px 1px 1px blue, -1px -1px 1px blue;
+    color: black;
+    text-shadow: 1px 1px 1px white, -1px -1px 1px white;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -528,7 +533,7 @@ ul li:hover {
 
 .wrap-infomia-gral {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 20% 40% 25% 15%;
 }
 
 @media (max-width:930px) {
@@ -575,16 +580,13 @@ ul li:hover {
     .nombre-completo {
         font-size: 62px;
         line-height: 62px;
-        top: 23%;
-        left: 22%;
-        transform: translate(-10%, -50%);
     }
     .line a {
         font-size: 40px;
         line-height: 60px;
     }
     .wrap-animated {
-        top: 37%;
+        display: none;
     }
     .animated-text {
         height: 50px;
@@ -624,5 +626,13 @@ ul li:hover {
         height: 180px;
         margin-top: -125px;
         margin-left: 16px;
+    }
+    /*---------*/
+    .wrap-infomia-gral {
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+    .wrap-nombre {
+        text-align: center;
     }
 }
