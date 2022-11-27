@@ -605,6 +605,7 @@ ul li:hover {
     /*--------*/
     #info-actions {
         padding-right: 5px;
+        display: none;
     }
     /*--------*/
     .containerpeli {
