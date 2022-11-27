@@ -200,7 +200,7 @@
 .wrap-infomia {
     display: grid;
     font-family: 'Courier New', Courier, monospace;
-    grid-template-rows: 65px 42px 36px 14px;
+    grid-template-rows: 65px 42px 36px;
     color: white;
 }
 
@@ -543,8 +543,7 @@ ul li:hover {
     }
     .wrap-infomia {
         color: white;
-        margin-left: 10px;
-        grid-template-rows: 40px 25px 15px 15px;
+        grid-template-rows: 40px 25px 15px;
         position: relative;
         z-index: 1111;
         margin-left: auto;
