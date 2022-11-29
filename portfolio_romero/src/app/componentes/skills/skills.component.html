@@ -5,7 +5,7 @@
             Skills
         </h2>
     </div>
- 
+
     <div class="wrap-img-titu">
         <img src="../../../assets/educacion/s7.jpg">
     </div>
@@ -17,16 +17,19 @@
 </div>
 
 <div id="card-skills" *ngFor="let skill of skillFront">
-    <div class="data-container">
+    <div class="data-container2">
 
-        <div class="image-container4">
-            <img class="logo-image" [src]="skill.img">
+        <div class="wrap-logo-img">
+            <img class="logo-image" [src]="skill.img" id="logo-image-front">
 
         </div>
 
-        <div class="wrap-data">
+        <div class="wrap-data2">
             <div id="title">{{skill.habilidad}}</div>
-            <button (click)="skill.hide = !skill.hide">+</button>
+            <div class="wrap-btn-skill">
+                <button (click)="skill.hide = !skill.hide" id="btn-front">+</button>
+            </div>
+
 
         </div>
 
@@ -72,17 +75,18 @@
 </div>
 
 <div class="card" id="card-skills" *ngFor="let skill of skillBack">
-    <div class="data-container">
+    <div class="data-container2">
 
-        <div class="image-container4">
-            <img class="logo-image" [src]="skill.img">
+        <div class="wrap-logo-img">
+            <img class="logo-image" [src]="skill.img" id="logo-image-back">
 
         </div>
 
-        <div class="wrap-data">
+        <div class="wrap-data2">
             <div id="title">{{skill.habilidad}}</div>
-            <button (click)="skill.hide = !skill.hide">+</button>
-
+            <div class="wrap-btn-skill">
+                <button (click)="skill.hide = !skill.hide" id="btn-back">+</button>
+            </div>
         </div>
 
     </div>
@@ -126,17 +130,18 @@
 </div>
 
 <div class="card" id="card-skills" *ngFor="let skill of skillSoft">
-    <div class="data-container">
+    <div class="data-container2">
 
-        <div class="image-container4">
-            <img class="logo-image" [src]="skill.img">
+        <div class="wrap-logo-img">
+            <img class="logo-image" [src]="skill.img" id="logo-image-soft">
 
         </div>
 
-        <div class="wrap-data">
+        <div class="wrap-data2">
             <div id="title">{{skill.habilidad}}</div>
-            <button (click)="skill.hide = !skill.hide">+</button>
-
+            <div class="wrap-btn-skill">
+                <button (click)="skill.hide = !skill.hide" id="btn-soft">+</button>
+            </div>
         </div>
 
     </div>

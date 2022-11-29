@@ -10,14 +10,19 @@
       text-align: center;
       margin-bottom: 20px;
   }
-  /*--------------*/
-  /*
-  .marco {
+  
+  .data-container2 {
       display: grid;
-      grid-template-columns: 35% 65%;
-      margin: 2px;
+      grid-template-columns: 50% 50%;
+      margin-top: 20px;
   }
-  */
+  
+  .wrap-data2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  /*--------------*/
   
   .wrap-skilazos {
       text-align: center;
@@ -25,14 +30,13 @@
       flex-direction: column;
   }
   
-  .wrap-li {
-      margin: 0 90px 0 90px;
-      border: 2px solid grey;
-  }
+  .wrap-li {}
   
   ul {
       margin: 0 0 0 0;
       padding: 0 0 0 0;
+      width: 74%;
+      margin-left: auto;
   }
   
   ul li {
@@ -48,12 +52,6 @@
   }
   /*-----Botones para manipular------*/
   
-  .wrap-btns {
-      display: flex;
-      position: relative;
-      right: 5px;
-  }
-  
   h4 {
       font-family: 'Courier New', Courier, monospace;
   }
@@ -62,12 +60,48 @@
       color: rgb(250, 32, 32);
   }
   
+  #btn-front {
+      background-color: rgb(250, 32, 32);
+  }
+  
+  #logo-image-front {
+      border: 1px solid rgb(250, 32, 32);
+  }
+  
+  #titulo-front h1 {
+      border-bottom: 1px solid rgb(250, 32, 32);
+  }
+  
   #titulo-back h1 {
       color: rgb(47, 47, 255);
   }
   
+  #btn-back {
+      background-color: rgb(47, 47, 255);
+  }
+  
+  #logo-image-back {
+      border: 1px solid rgb(47, 47, 255);
+  }
+  
+  #titulo-back h1 {
+      border-bottom: 1px solid rgb(47, 47, 255);
+  }
+  
   #titulo-soft h1 {
       color: rgb(183, 134, 9);
+  }
+  
+  #btn-soft {
+      background-color: rgb(183, 134, 9);
+  }
+  
+  #logo-image-soft {
+      border: 1px solid rgb(183, 134, 9);
+  }
+  
+  #titulo-soft h1 {
+      border-bottom: 1px solid rgb(183, 134, 9);
   }
   
   #titulo-front h1,
@@ -77,27 +111,44 @@
       width: 350px;
       margin: 0 auto;
       font-size: 60px;
-      border-bottom: 1px solid blue;
-      ;
   }
   
   #titulo-front,
   #titulo-back,
   #titulo-soft {
-      text-align: center;
       color: white;
       font-family: 'Courier New', Courier, monospace;
       margin-bottom: 15px;
   }
   /*---------------*/
+  
+  .wrap-btn-skill {
+      text-align: left;
+      margin-left: 30%;
+  }
+  
+  .wrap-btn-skill button {
+      padding: 1px 3px;
+      color: white;
+      border: 1px solid white;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 50%;
+      margin-top: 5px;
+  }
   /*---------------*/
+  
+  .wrap-logo-img {
+      text-align: right;
+  }
   
   .logo-image {
       width: 240px;
       height: 240px;
       border-radius: 50%;
-      margin-left: 115px;
       padding-bottom: 5px;
+      padding: 5px;
   }
   
   #title {
@@ -106,7 +157,7 @@
       letter-spacing: -1px;
       font-weight: 600;
       font-family: 'Courier New', Courier, monospace;
-      text-align: center;
+      margin-left: 4%;
   }
   
   @media (max-width:920px) {
@@ -134,8 +185,12 @@
       }
       /*-----*/
       ul li {
-          width: 100%;
+          margin: 0 10%;
           font-size: 16px;
+      }
+      ul {
+          width: 100%;
+          margin-left: 5%;
       }
       /*--------*/
       .wrap-li {
@@ -152,11 +207,9 @@
       #titulo-front h1,
       #titulo-back h1,
       #titulo-soft h1 {
-          text-align: center;
           width: 350px;
           margin: 0 auto;
           font-size: 40px;
-          border-bottom: 1px solid blue;
           ;
       }
   }
