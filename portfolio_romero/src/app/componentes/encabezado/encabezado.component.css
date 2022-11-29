@@ -552,7 +552,6 @@ ul li:hover {
         line-height: 40px;
         text-align: right;
         position: relative;
-        left: 30%;
     }
     .info-origen {
         text-shadow: none;
@@ -583,11 +582,11 @@ ul li:hover {
         line-height: 62px;
     }
     .line a {
-        font-size: 30px;
+        font-size: 40px;
         line-height: 60px;
     }
     .wrap-animated {
-        top: 20px;
+        top: 30px;
         left: 0px;
     }
     .animated-text {
