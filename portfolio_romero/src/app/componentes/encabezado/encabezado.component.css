@@ -537,20 +537,22 @@ ul li:hover {
 }
 
 @media (max-width:930px) {
+    .wrap-header {}
     #first-card {
-        height: 85vh;
         margin: 0;
     }
     .wrap-infomia {
         color: white;
         grid-template-rows: 40px 25px 15px;
-        position: relative;
+        position: absolute;
         z-index: 1111;
-        margin-left: auto;
     }
     .info-profesion {
         font-size: 40px;
         line-height: 40px;
+        text-align: right;
+        position: relative;
+        left: 30%;
     }
     .info-origen {
         text-shadow: none;
@@ -581,11 +583,12 @@ ul li:hover {
         line-height: 62px;
     }
     .line a {
-        font-size: 40px;
+        font-size: 30px;
         line-height: 60px;
     }
     .wrap-animated {
-        display: none;
+        top: 20px;
+        left: 0px;
     }
     .animated-text {
         height: 50px;
@@ -598,13 +601,10 @@ ul li:hover {
         margin: 0 7px 0 0;
         font-size: 15px;
     }
-    .wrap-header {
-        height: 8vh;
-    }
     /*--------*/
     #info-actions {
-        padding-right: 5px;
-        display: none;
+        top: 10px;
+        text-align: right;
     }
     /*--------*/
     .containerpeli {
@@ -629,8 +629,8 @@ ul li:hover {
     }
     /*---------*/
     .wrap-infomia-gral {
-        display: grid;
-        grid-template-columns: 20% 80%;
+        display: flex;
+        flex-direction: column;
     }
     .wrap-nombre {
         text-align: center;
