@@ -109,10 +109,12 @@ skillSoft: any=[
   "img":"../assets/idioms.png",
   "responsabilidades":
   [
-  "Advanced english knowledge. Advanced oral and written English communication skills", 
-  "Five certificates of verifiable English experience.",
-  "Intermediate French knowledge. Advanced oral and intermediate written French communication skills", 
-  "Two  certificates of verifiable French experience." 
+    "Conocimientos avanzados de inglés. Habilidades avanzadas de comunicación oral y escrita en inglés",
+    "Cinco certificados de experiencia comprobable en Inglés.",
+    "Conocimientos intermedios de francés. Habilidades de comunicación oral avanzada y francés escrito intermedio",
+    "Dos certificados de experiencia comprobable en Francés",
+   "Comprender y producir textos escritos tanto en Inglés como en Francés para poder traducir", 
+   "Comprender y producir textos orales en ambos idiomas para poder interpretar."  
 ],
 "hide":true
 },
