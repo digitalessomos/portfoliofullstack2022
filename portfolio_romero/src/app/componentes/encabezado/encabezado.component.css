@@ -296,7 +296,7 @@
         justify-content: center;
     }
     
-    .nombre-completo {
+    .wrap-nombre p {
         position: absolute;
         z-index: 111;
         text-transform: uppercase;
@@ -547,14 +547,14 @@
             width: 180px;
             height: 180px;
             margin-top: -125px;
-            margin-left: 16px;
+            margin-left: 4px;
         }
         #info-actions button {
             font-size: 12px;
         }
         /*----------------*/
         .img-wrapper {
-            height: 500px;
+            height: 400px;
             position: relative;
             overflow: hidden;
         }
@@ -569,9 +569,9 @@
             padding-right: 10px;
         }
         /*---------*/
-        .nombre-completo {
-            font-size: 62px;
-            line-height: 62px;
+        .wrap-nombre p {
+            font-size: 52px;
+            line-height: 52px;
         }
         .line a {
             font-size: 40px;
