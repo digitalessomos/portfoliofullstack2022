@@ -58,21 +58,22 @@
     
     .wrapLogos {
         display: grid;
-        grid-template-columns: repeat(5, auto);
-        margin-left: 10px;
-        margin-top: 10px;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 10px;
     }
     
     .wrapLogos p {
-        font-size: 26px;
+        margin: auto auto;
+        font-size: 36px;
         font-family: 'Courier New', Courier, monospace;
-        margin-right: 50px;
-        padding-left: 2px;
+        line-height: 36px;
+        background-color: yellow;
     }
     
     .wrapLogos p a {
         text-decoration: none;
-        color: white;
+        color: black;
+        padding: 2px 5px;
     }
     
     .wrap-milogo {
@@ -606,12 +607,10 @@
         }
         .wrapLogos p {
             font-size: 13px;
-            margin-left: 5px;
-            margin-right: 0px;
             text-transform: uppercase;
         }
         .wrapLogos {
-            margin-left: 0px;
+            margin-left: 4px;
         }
         /*---------*/
         .wrap-infomia-gral {

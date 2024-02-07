@@ -33,14 +33,14 @@
     }
     
     .texto-interior {
-        font-family: 'Montserrat Subrayada', sans-serif;
+        font-family: 'Courier New', Courier, monospace;
         display: inline-block;
         font-size: 50px;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: white;
+        color: black;
     }
     /*-------------*/
     
@@ -57,7 +57,10 @@
     
     .img-tres {
         /*background-image: url("/assets/fondosTitu/1.jpg");*/
-        background-color: black;
+        background-color: yellow;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
     }
     
     .wrap-data button {
@@ -114,5 +117,9 @@
             padding: 2px 3px;
             font-size: 13px;
             font-weight: 600;
+        }
+        /*----*/
+        .img-tres {
+            border-right: 1px solid black;
         }
     }
