@@ -30,14 +30,14 @@
 /*-------*/
 
 .wrap-footer {
-    background-image: url("/assets/fondosTitu/1.jpg");
+    /* background-image: url("/assets/fondosTitu/1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     position: relative;
-    color: white;
     margin-top: 20px;
+    background-color: black;
 }
 
 footer {
@@ -51,7 +51,7 @@ footer {
 
 footer p {
     line-height: 7px;
-    text-shadow: -1px -1px 1px black;
+    color: white;
 }
 
 .p1-footer {
