@@ -1,6 +1,6 @@
     @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,400&family=Montserrat+Subrayada&display=swap');
     .wrap-header {
-        height: 10vh;
+        height: 8vh;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -128,7 +128,7 @@
     }
     
     .img-wrapper {
-        height: 600px;
+        height: 500px;
         position: relative;
         overflow: hidden;
     }
@@ -182,20 +182,22 @@
     #info {
         z-index: 111;
         width: 100%;
+        position: relative;
     }
     
     #info img {
+        position: absolute;
         border-radius: 50%;
         width: 100%;
         height: 300px;
-        margin-top: -165px;
-        padding: 5px;
+        margin-top: -150px;
+        padding: 3px;
     }
     
     .wrap-infomia {
         display: grid;
         font-family: 'Courier New', Courier, monospace;
-        grid-template-rows: 65px 42px 36px;
+        grid-template-rows: 45px 32px 26px;
         color: white;
         background-color: black;
         padding: 2px 10px;
@@ -203,20 +205,20 @@
     
     .info-profesion {
         font-family: 'Montserrat Subrayada', sans-serif;
-        font-size: 65px;
-        line-height: 65px;
+        font-size: 45px;
+        line-height: 45px;
         text-shadow: 1px 1px 1px white, -1px -1px 1px white;
         color: red;
     }
     
     .info-origen {
-        font-size: 42px;
-        line-height: 42px;
+        font-size: 32px;
+        line-height: 32px;
     }
     
     .info-contacto {
-        font-size: 36px;
-        line-height: 36px;
+        font-size: 26px;
+        line-height: 26px;
     }
     
     #info-actions {
@@ -521,7 +523,7 @@
             margin: 0;
         }
         .wrap-infomia {
-            grid-template-rows: 40px 25px 15px;
+            grid-template-rows: 35px 22px 15px;
             z-index: -1111;
             text-align: right;
         }
@@ -545,9 +547,9 @@
         }
         #info img {
             border-radius: 50%;
-            width: 180px;
+            width: 200px;
             height: 180px;
-            margin-top: -125px;
+            margin-top: -115px;
             margin-left: 4px;
         }
         #info-actions button {
@@ -555,7 +557,7 @@
         }
         /*----------------*/
         .img-wrapper {
-            height: 400px;
+            height: 350px;
             position: relative;
             overflow: hidden;
         }
