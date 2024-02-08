@@ -12,20 +12,33 @@
     </div>
 </div>
 
-<div id="card-educacion">
+<div class="wrapEduc">
+    <div class="data-container-edu" *ngFor="let educacion2 of edu2">
 
-    <app-list></app-list>
-
-    <!--     <div class="card-titles">
-        <button (click)="show=!show" class="btn"><i class="fa fa-plus"></i></button>
-    </div>
-    
-  <div *ngIf="show">
-        <div #show>
-            <app-form></app-form>
+        <div class="gallery-image">
+            <div class="img-box">
+                <img [src]="educacion2.credencial" alt="" />
+                <div class="transparent-box">
+                    <div class="caption">
+                        <p>
+                            <a [href]="educacion2.linkCredencial" target="_blank" id="link-titulo">
+                  ver credencial
+                </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <div class="wrap-data-educacion" (click)="educacion2.hide = !educacion2.hide">
+            <div id="title">{{educacion2.title}}</div>
+            <div id="institucion">{{ educacion2.institucion }}</div>
+            <div [hidden]="educacion2.hide" id="time"><time>{{educacion2.start}}</time> - <time>{{educacion2.end}}</time></div>
+
+
+
+        </div>
+
+
     </div>
--->
-
-
 </div>

@@ -24,8 +24,7 @@ import { ExperienciaService } from './servicios/experiencia.service';
 import { InterceptorService } from './servicios/interceptor.service';
 import { ModalComponent } from './componentes/modal/modal.component';
 
-import { FormComponent } from './componentes/educacion/form/form.component';
-import { ListComponent } from './componentes/educacion/list/list.component';
+import { FormComponent } from './componentes/educacion/form/form.component'; 
 import { CajaComponent } from './componentes/educacion/caja/caja.component';  
 
 import { FormExperiencia } from './componentes/experiencia/form/form.component';
@@ -45,8 +44,7 @@ import { CajaExperiencia } from './componentes/experiencia/caja/caja.component';
     IniciarSesionComponent,
     PortfolioComponent,
     ModalComponent,
-    FormComponent,
-    ListComponent,
+    FormComponent, 
     CajaComponent,
     FormExperiencia,
     ListExperiencia,
