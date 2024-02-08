@@ -1,0 +1,14 @@
+Uso: /macros
+el comando puede ser cambiado en el archivo de configuración sección >>
+[Settings]
+ActivacionCMD=macros
+
+Instalación: Copiar todo a la carpeta MoonLoader
+
+Requisitos:
+moonloader 026+
+sampfuncs 5.4.1
+samp 0.3.7
+
+Youtube: https://www.youtube.com/c/JoseSampMods/videos
+Discord: https://discord.com/invite/nCUrj2W

@@ -10,8 +10,7 @@ export class EducacionComponent implements OnInit {
     {
       "id":1, 
       "institucion":"Juan XXIII",
-      "title":"Técnico en informática personal y profesional",
-      "img":"./assets/img/logoedu1.jpg",
+      "title":"Técnico en informática personal y profesional", 
       "start":"2002",
       "end":"2005",
       "credencial":"../../../assets/educacion/cole2.jpg",
@@ -19,21 +18,19 @@ export class EducacionComponent implements OnInit {
       "hide":true
   },
   {
-      "id":2, 
-      "institucion":"Udemy academy",
-      "title":"Master en Javascript",
-      "img":"./assets/img/logoedu2.png",
-      "start":"Ago 2020",
-      "end":"Nov 2020",
-      "credencial":"../../../assets/educacion/meanUdemy.jpg",
-      "linkCredencial":"https://udemy-certificate.s3.amazonaws.com/image/UC-8f9db880-f8f6-46d0-b442-a300e1e41412.jpg",
-      "hide":true
-  },
+    "id":2, 
+    "institucion":"Juan XXIII",
+    "title":"Modalidad producción bienes y servicios", 
+    "start":"2002",
+    "end":"2005",
+    "credencial":"../../../assets/educacion/cole1.jpg",
+    "linkCredencial":"Solicitar original",
+    "hide":true
+},
   {
       "id":3, 
       "institucion":"Google analytic Academy",
-      "title":"Google analytic para principiantes",
-      "img":"./assets/img/logogoogle.png",
+      "title":"Google analytic para principiantes", 
       "start":"Jun 2020",
       "end":"Sep 2020",
       "credencial":"../../../assets/educacion/analytic.png",
@@ -43,8 +40,7 @@ export class EducacionComponent implements OnInit {
   {
       "id":4, 
       "institucion":"OM Personal",
-      "title":"Inglés B1 B2 C1 ",
-      "img":"./assets/educacion/1.png",
+      "title":"Inglés B1 B2 C1 ", 
       "start":"Nov 2015",
       "end":"Jul 2017",
       "credencial":"../../../assets/educacion/c3.jpg",
@@ -53,15 +49,56 @@ export class EducacionComponent implements OnInit {
   },
   {
       "id":5, 
-      "institucion":"Edutin",
-      "title":"Francés A1 A2",
+      "institucion":"OM Personal",
+      "title":"Avanzado Negocios", 
+      "start":"Nov 2015",
+      "end":"Jul 2017",
+      "credencial":"../../../assets/educacion/avanzado.jpg",
+      "linkCredencial":"Solicitar original",
+      "hide":true
+  } ,
+  {
+      "id":6, 
+      "institucion":"Aula Fácil",
+      "title":"Francés A1", 
+      "start":"Jun 2020",
+      "end":"Ago 2020",
+      "credencial":"../../../assets/educacion/francesa1.png",
+      "linkCredencial":"https://edutin.com/certifications/view/2254909",
+      "hide":true
+  },
+  {
+      "id":7, 
+      "institucion":"Edutin Academy",
+      "title":"Francés A2",
       "img":"./assets/img/edutin.png",
-      "start":"Nov 2019",
+      "start":"Jul 2020",
       "end":"Ago 2020",
       "credencial":"../../../assets/educacion/Certificado1.png",
       "linkCredencial":"https://edutin.com/certifications/view/2254909",
       "hide":true
-  }  
+  },
+  {
+    "id":8, 
+    "institucion":"Udemy academy",
+    "title":"Master en Javascript", 
+    "start":"Jul 2020",
+    "end":"Oct 2020",
+    "credencial":"../../../assets/educacion/meanUdemy.jpg",
+    "linkCredencial":"https://udemy-certificate.s3.amazonaws.com/image/UC-8f9db880-f8f6-46d0-b442-a300e1e41412.jpg",
+    "hide":true
+},
+  {
+      "id":9, 
+      "institucion":"Argentina Programa",
+      "title":"Programador",
+      "img":"./assets/img/edutin.png",
+      "start":"Jul 2020",
+      "end":"Ago 2020",
+      "credencial":"../../../assets/educacion/cert.png",
+      "linkCredencial":"https://edutin.com/certifications/view/2254909",
+      "hide":true
+  }    
  
 
 ]
