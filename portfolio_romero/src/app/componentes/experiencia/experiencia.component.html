@@ -1,29 +1,60 @@
-<div class="wrap-titulo-new">
+<div class="wrap-titulo-new3">
 
+    <div class="wrap-img-titu3">
+        <img src="../../../assets/educacion/s5.jpg">
+    </div>
 
-    <div class="parallax img-tres" id="experiencia">
-        <h2 class="texto-interior">
-            Experiencia
+    <div class="parallax3 img-tres3" id="experiencia">
+        <h2 class="texto-interior3">
+            Experiencia & Proyectos
         </h2>
     </div>
 
 
-    <div class="wrap-img-titu">
-        <img src="../../../assets/educacion/s5.jpg">
+    <div class="wrap-img-titu3">
+        <img src="../../../assets/educacion/s1.jpg">
     </div>
 
 </div>
 
-<div id="card-experiencia">
-    <!--<div class="card-titles"> <button (click)="show=!show" class="btn"><i class="fa fa-plus"></i></button></div>-->
+<div class="wrapExperiencia">
 
-    <app-list-experiencia></app-list-experiencia>
+    <div class="wrap-gral" *ngFor="let experiencia of Experiencia">
 
-    <!--
- <div *ngIf= "show">
-    <div  #show>
-      <app-form-experiencia></app-form-experiencia>
+        <div class="data-container-proy">
+
+            <div class="image-container4">
+                <img class="logo-image" [src]="experiencia.tecnos[0]">
+                <img class="logo-image" [src]="experiencia.tecnos[1]">
+                <img class="logo-image" [src]="experiencia.tecnos[2]">
+                <img class="logo-image" [src]="experiencia.tecnos[3]">
+            </div>
+
+
+            <div class="wrap-data-exp">
+
+                <div id="puesto">{{experiencia.empresa}}</div>
+                <div id="title">{{experiencia.puesto}}</div>
+
+            </div>
+        </div>
+        <!--
+     <div [hidden]="experiencia.hide" id="time">
+            <ul class="responsabilidades">
+                <li>{{experiencia.responsabilidades[0]}}</li>
+                <li>{{experiencia.responsabilidades[1]}}</li>
+                <li>{{experiencia.responsabilidades[2]}}</li>
+                <li>{{experiencia.responsabilidades[3]}}</li>
+            </ul>
+
+            <div class="wrap-exp-proy">
+                <div>proyecto 1</div>
+                <div>proyecto 2</div>
+            </div>
+
+            <span id="time-expe"><time>{{experiencia.start}}</time></span>
+        </div>
+-->
+
     </div>
-  </div>
-  -->
 </div>

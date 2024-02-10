@@ -27,9 +27,7 @@ import { ModalComponent } from './componentes/modal/modal.component';
 import { FormComponent } from './componentes/educacion/form/form.component'; 
 import { CajaComponent } from './componentes/educacion/caja/caja.component';  
 
-import { FormExperiencia } from './componentes/experiencia/form/form.component';
-import { ListExperiencia } from './componentes/experiencia/list/list.component';
-import { CajaExperiencia } from './componentes/experiencia/caja/caja.component';  
+import { FormExperiencia } from './componentes/experiencia/form/form.component';   
 
 
 @NgModule({
@@ -46,9 +44,7 @@ import { CajaExperiencia } from './componentes/experiencia/caja/caja.component';
     ModalComponent,
     FormComponent, 
     CajaComponent,
-    FormExperiencia,
-    ListExperiencia,
-    CajaExperiencia 
+    FormExperiencia, 
   ],
   imports: [
     BrowserModule,

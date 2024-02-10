@@ -1,4 +1,4 @@
-<div class="wrap-titulo-new">
+<!--<div class="wrap-titulo-new">
 
 
     <div class="parallax img-tres" id="proyectos">
@@ -12,59 +12,8 @@
         <img src="../../../assets/educacion/s1.jpg">
     </div>
 
-</div>
-<!---------------------------------------------->
-<!------------------------
-<div id="card-experiencia">
-
-    <div class="wrap-edu-grid" *ngFor="let proyecto of proyectoList">
-
-        <div class="parte1">
-
-            <div class="one">{{proyecto.nombre}}</div>
-            <div class="wrap-marcoimg">
-
-                <div class="tiriras">
-                    <div></div>
-                    <div></div>
-                </div>
-                <div class="parte3">
-                    <img [src]="proyecto.img" class="img-fluid">
-                </div>
-                <div class="wrap-links">
-                    <p class="link-proyecto"><a [href]="proyecto.link" target="_blank">visitar proyecto</a></p>
-                </div>
-
-            </div>
-
-            <p class="p-descripcion">{{proyecto.descripcion}}</p>
-
-        </div>
-
-        <div class="parte2">
-
-            <ul class="wrap-li-proy">
-                <li>
-                    <h2>Frontend</h2>
-                    <p>{{proyecto.frontend}}</p>
-                </li>
-                <li>
-                    <h2>Backend</h2>
-                    <p>{{proyecto.backend}}</p>
-                </li>
-                <li>
-                    <h2>Base de datos</h2>
-                    <p>{{proyecto.bd}}</p>
-                </li>
-            </ul>
-
-        </div>
-
-    </div>
-</div>
----------------------->
-<!---------------------------------------------->
-<div id="card-experiencia" *ngFor="let proyecto of proyectoList">
+</div>-->
+<div *ngFor="let proyecto of proyectoList" class="wrapProyectos">
     <div class="data-container">
 
         <div class="image-container-proyecto">

@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 
 export class skillsComponent implements OnInit {
   
-  skillFront: any=[
+ skillFront: any=[
 
     {
     "habilidad":"Web designer",
@@ -50,7 +50,7 @@ export class skillsComponent implements OnInit {
 "hide":true
 }
 
-]
+] 
  /*------------------------------------*/
 skillBack: any=[  
 {

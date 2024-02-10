@@ -20,20 +20,15 @@
         </div>
 
         <div id="card-skills" *ngFor="let skill of skillFront">
-            <div class="data-container2">
+            <div class="data-container-skill">
 
                 <div class="wrap-logo-img">
                     <img class="logo-image" [src]="skill.img" id="logo-image-front">
 
                 </div>
 
-                <div class="wrap-data2">
-                    <div id="title">{{skill.habilidad}}</div>
-                    <div class="wrap-btn-skill">
-                        <button (click)="skill.hide = !skill.hide" id="btn-front">+</button>
-                    </div>
-
-
+                <div class="wrap-data2" (click)="skill.hide = !skill.hide" id="btn-front">
+                    <p id="title">{{skill.habilidad}}</p>
                 </div>
 
             </div>
@@ -81,18 +76,16 @@
         </div>
 
         <div id="card-skills" *ngFor="let skill of skillBack">
-            <div class="data-container2">
+            <div class="data-container-skill">
 
                 <div class="wrap-logo-img">
                     <img class="logo-image" [src]="skill.img" id="logo-image-back">
 
                 </div>
 
-                <div class="wrap-data2">
+                <div class="wrap-data2" (click)="skill.hide = !skill.hide" id="btn-back">
                     <div id="title">{{skill.habilidad}}</div>
-                    <div class="wrap-btn-skill">
-                        <button (click)="skill.hide = !skill.hide" id="btn-back">+</button>
-                    </div>
+
                 </div>
 
             </div>
@@ -138,18 +131,15 @@
         </div>
 
         <div id="card-skills" *ngFor="let skill of skillSoft">
-            <div class="data-container2">
+            <div class="data-container-skill">
 
                 <div class="wrap-logo-img">
                     <img class="logo-image" [src]="skill.img" id="logo-image-soft">
 
                 </div>
 
-                <div class="wrap-data2">
+                <div class="wrap-data2" (click)="skill.hide = !skill.hide" id="btn-soft">
                     <div id="title">{{skill.habilidad}}</div>
-                    <div class="wrap-btn-skill">
-                        <button (click)="skill.hide = !skill.hide" id="btn-soft">+</button>
-                    </div>
                 </div>
 
             </div>

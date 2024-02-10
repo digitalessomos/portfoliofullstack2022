@@ -1,17 +1,8 @@
     @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&family=Montserrat+Alternates:wght@300;400&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-    #card-experiencia {
-        border: none;
-        width: 70%;
-        margin: 0 auto;
+    .wrapProyectos {
+        margin: 0 20rem;
     }
-    
-    .wrap-edu-grid {
-        display: grid !important;
-        grid-template-columns: 60% 40%;
-        margin-bottom: 15px;
-    }
-    /*------------------*/
     
     .p-desc-pro {
         text-align: justify;
@@ -168,8 +159,8 @@
     }
     
     @media (max-width:920px) {
-        #card-experiencia {
-            width: 100%;
+        .wrapProyectos {
+            margin: 2rem 0 0 0;
         }
         .parte1 {
             margin: 0;
