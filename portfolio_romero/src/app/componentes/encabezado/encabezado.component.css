@@ -72,7 +72,7 @@
     
     .wrapLogos p a {
         text-decoration: none;
-        color: black;
+        color: white;
         padding: 2px 5px;
     }
     
@@ -164,7 +164,7 @@
     
     .img-wrapper h2 {
         background-color: black;
-        color: red;
+        color: white;
         text-align: center;
         text-transform: uppercase;
         font-family: 'Courier New', Courier, monospace;
@@ -187,9 +187,10 @@
     #info img {
         position: absolute;
         border-radius: 50%;
-        width: 100%;
+        width: 80%;
         height: 310px;
         margin-top: -170px;
+        margin-left: 100px;
         padding: 3px;
     }
     
@@ -206,7 +207,7 @@
         font-family: 'Courier New', Courier, monospace;
         font-size: 45px;
         line-height: 45px;
-        color: red;
+        color: white;
     }
     
     .info-origen {
@@ -221,7 +222,7 @@
     
     #info-actions button {
         padding: 0.5px 6px;
-        background-color: black;
+        background-color: red;
         font-family: 'Courier New', Courier, monospace;
         word-spacing: -4px;
         margin-bottom: 3px;
@@ -300,7 +301,7 @@
         font-family: 'Courier New', Courier, monospace;
         font-size: 90px;
         line-height: 100px;
-        color: red;
+        color: white;
         text-shadow: 1px 1px 1px black, -1px -1px 1px black;
         top: 10%;
     }

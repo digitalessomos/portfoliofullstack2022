@@ -42,7 +42,7 @@
         text-decoration: none;
         font-style: italic;
         color: white;
-        background-color: rgb(164, 7, 7);
+        background-color: red;
         padding: 4px 8px;
         border-radius: 20px;
         font-size: 14px;
@@ -159,7 +159,7 @@
     
     .wrap-title-proy button {
         padding: 1px 3px;
-        background-color: rgb(164, 7, 7);
+        background-color: red;
         color: white;
         border: 1px solid white;
         font-family: 'Courier New', Courier, monospace;
