@@ -598,7 +598,9 @@
             font-size: 14px;
         }
         /*--------*/
-        #info-actions {}
+        #info-actions {
+            display: none;
+        }
         /*--------*/
         .containerpeli {
             height: 400px;
