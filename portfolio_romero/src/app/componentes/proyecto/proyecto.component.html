@@ -14,14 +14,14 @@
 
 </div>-->
 <div *ngFor="let proyecto of proyectoList" class="wrapProyectos">
-    <div class="data-container">
+    <div class="proy-data-container">
 
         <div class="image-container-proyecto">
             <img class="logo-image" [src]="proyecto.img">
 
         </div>
 
-        <div class="wrap-data">
+        <div class="wrap-title-proy">
             <div id="title">{{proyecto.nombre}}</div>
             <button (click)="proyecto.hide = !proyecto.hide">+</button>
 

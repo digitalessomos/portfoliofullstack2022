@@ -67,7 +67,7 @@
         font-size: 36px;
         font-family: 'Courier New', Courier, monospace;
         line-height: 36px;
-        background-color: yellow;
+        background-color: red;
     }
     
     .wrapLogos p a {
@@ -165,10 +165,9 @@
     .img-wrapper h2 {
         background-color: black;
         color: red;
-        text-shadow: 1px 1px 1px white, -1px -1px 1px white;
         text-align: center;
         text-transform: uppercase;
-        font-family: 'Montserrat Subrayada', sans-serif;
+        font-family: 'Courier New', Courier, monospace;
         margin: 0;
         padding: 10px 0;
         position: absolute;
@@ -189,8 +188,8 @@
         position: absolute;
         border-radius: 50%;
         width: 100%;
-        height: 300px;
-        margin-top: -150px;
+        height: 310px;
+        margin-top: -170px;
         padding: 3px;
     }
     
@@ -198,16 +197,15 @@
         display: grid;
         font-family: 'Courier New', Courier, monospace;
         grid-template-rows: 45px 32px 26px;
-        color: white;
-        background-color: black;
+        /* color: white;
+        background-color: black;*/
         padding: 2px 10px;
     }
     
     .info-profesion {
-        font-family: 'Montserrat Subrayada', sans-serif;
+        font-family: 'Courier New', Courier, monospace;
         font-size: 45px;
         line-height: 45px;
-        text-shadow: 1px 1px 1px white, -1px -1px 1px white;
         color: red;
     }
     
@@ -221,16 +219,12 @@
         line-height: 26px;
     }
     
-    #info-actions {
-        position: relative;
-        margin-top: auto;
-    }
-    
     #info-actions button {
         padding: 0.5px 6px;
         background-color: black;
         font-family: 'Courier New', Courier, monospace;
         word-spacing: -4px;
+        margin-bottom: 3px;
     }
     
     #info-actions button a {
@@ -303,16 +297,16 @@
         position: absolute;
         z-index: 111;
         text-transform: uppercase;
-        font-family: 'Montserrat Subrayada', sans-serif;
+        font-family: 'Courier New', Courier, monospace;
         font-size: 90px;
         line-height: 100px;
         color: red;
-        text-shadow: 1px 1px 1px white, -1px -1px 1px white;
+        text-shadow: 1px 1px 1px black, -1px -1px 1px black;
         top: 10%;
     }
     
     .wrap-animated {
-        background-color: black;
+        /*  background-color: black;*/
         z-index: 111;
         position: relative;
         display: flex;
@@ -323,6 +317,7 @@
     .animated-text {
         height: 50px;
         overflow: hidden;
+        transform: scale(0.9);
     }
     
     .line a {
@@ -515,7 +510,9 @@
     
     .wrap-infomia-gral {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        color: white;
+        background-color: black;
     }
     
     @media (max-width:930px) {
@@ -524,7 +521,6 @@
         }
         .wrap-infomia {
             grid-template-rows: 35px 22px 15px;
-            z-index: -1111;
             text-align: right;
         }
         .info-profesion {
@@ -592,6 +588,7 @@
         /*------------*/
         .wrap-header .social-buttons {
             grid-gap: 4px;
+            display: none;
         }
         .wrap-header .social-buttons a {
             font-size: 18px;
@@ -600,9 +597,7 @@
             font-size: 14px;
         }
         /*--------*/
-        #info-actions {
-            display: none;
-        }
+        #info-actions {}
         /*--------*/
         .containerpeli {
             height: 400px;

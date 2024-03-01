@@ -31,17 +31,6 @@ export class ProyectoComponent implements OnInit {
     "hide":true
 },
 {
-  "nombre":"Practica de gestión simultanea de comercios digitales",
-  "link":"https://mitiendavirtual10.netlify.app",
-  "img":"../../../assets/proyectos/22.png",
-  "fecha":"2020",
-  "descripcion":"Implementación de un Sistema de Gestión de Pedidos para centralizar toda la información que circula por los distintos canales, el cual permite, además, hacer mejor uso de los recursos disponibles.",
-  "frontend":"Angular",
-  "backend":"API-Firebase",
-  "bd":"Firebase DB",
-  "hide":true
-},
-{
   "nombre":"Proyecto web para comercio electrónico con BD en FB",
   "link":"https://carritok.netlify.app/",
   "img":"./assets/proyectos/666.png",
@@ -94,6 +83,21 @@ export class ProyectoComponent implements OnInit {
 /*
   redirect() {
     this.router.navigate(['crear-proyecto']);  
-  }*/
+  }
+
+  ,
+{
+  "nombre":"Practica de gestión simultanea de comercios digitales",
+  "link":"https://mitiendavirtual10.netlify.app",
+  "img":"../../../assets/proyectos/22.png",
+  "fecha":"2020",
+  "descripcion":"Implementación de un Sistema de Gestión de Pedidos para centralizar toda la información que circula por los distintos canales, el cual permite, además, hacer mejor uso de los recursos disponibles.",
+  "frontend":"Angular",
+  "backend":"API-Firebase",
+  "bd":"Firebase DB",
+  "hide":true
+}
+  */
+ 
 }
   
